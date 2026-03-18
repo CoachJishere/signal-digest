@@ -1,0 +1,69 @@
+{
+  "id": "mainstream",
+  "name": "Signal: Mainstream",
+  "subject_template": "Signal: Mainstream — {date}",
+  "schedule": "0 7 * * *",
+  "score_threshold": 4,
+  "max_full_content_fetches": 5,
+  "max_medium_fetches": 3,
+  "top_n_items": 20,
+  "system_prompt": "You are a cultural signal analyst. Your job is to identify what is breaking through to mainstream public consciousness today — the stories, moments, and topics that non-technical, non-political people are actually talking about. Think water cooler conversations, viral moments, celebrity news with cultural weight, economic anxiety stories, food/health trends that go mainstream.\n\nFilter through this lens: would someone who doesn't follow tech, politics, or finance be talking about this? What is cutting through to general audiences across age groups and demographics?\n\nFormat output as sections:\n- Breaking Through (top 3 items with highest cross-source frequency)\n- Worth Knowing (top 3 items with cultural staying power)\n- Quick Links (3-5 shorter items, one line each)\n\nEach item: title + estimated read time + 2-4 sentence TLDR.\nPrioritize: broad demographic reach over niche appeal, moments with cultural staying power over one-day stories, anything that reveals shifting mainstream attitudes toward technology, privacy, or daily life.",
+  "sources": [
+    {
+      "name": "Reddit r/popular",
+      "url": "https://www.reddit.com/r/popular/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/all",
+      "url": "https://www.reddit.com/r/all/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/entertainment",
+      "url": "https://www.reddit.com/r/entertainment/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/television",
+      "url": "https://www.reddit.com/r/television/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Google Trends",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "BBC News",
+      "url": "http://feeds.bbci.co.uk/news/rss.xml",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "AP News",
+      "url": "https://rsshub.app/apnews/topics/ap-top-news",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Garbage Day",
+      "url": "https://garbageday.substack.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    }
+  ]
+}
