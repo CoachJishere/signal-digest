@@ -68,7 +68,7 @@ def _build_user_message(items: list[dict], config: dict) -> str:
     parts.append("---")
     parts.append("")
     parts.append(
-        f"Format each item as: [TITLE] (X min read) — 2-4 sentence TLDR paragraph — [Read more →]\n"
+        f"Format each item as: **[TITLE] (X min read)** — 2-4 sentence TLDR paragraph — [Read more →]\n"
         f"Include the URL for each item's 'Read more' link.\n"
         f"Today's date: {today}"
     )
