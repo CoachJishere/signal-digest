@@ -2,6 +2,7 @@
 
 import logging
 import os
+import re
 from datetime import datetime, timezone
 
 import resend
@@ -24,6 +25,9 @@ def send_digest(body: str, config: dict, test_mode: bool = False) -> None:
     # Append footer
     full_body = f"{body}\n\n---\nSignal Digest — {config['name']}\nGenerated {today}"
 
+    # Convert markdown to simple HTML for email rendering
+    html_body = _markdown_to_html(full_body)
+
     logger.info(f"Sending digest email: {subject}")
 
     try:
@@ -31,7 +35,7 @@ def send_digest(body: str, config: dict, test_mode: bool = False) -> None:
             "from": FROM_ADDRESS,
             "to": [recipient],
             "subject": subject,
-            "text": full_body,
+            "html": html_body,
         })
         logger.info("Digest email sent successfully")
     except Exception as e:
@@ -69,6 +73,79 @@ def send_error_notification(config_name: str, error: str) -> None:
         logger.info("Error notification email sent")
     except Exception as e:
         logger.error(f"Failed to send error notification: {e}")
+
+
+def _markdown_to_html(text: str) -> str:
+    """Convert markdown-formatted text to simple HTML for email.
+
+    Handles: headers, bold, italic, links, horizontal rules, paragraphs.
+    No external dependency needed.
+    """
+    lines = text.split("\n")
+    html_lines = []
+    in_paragraph = False
+
+    for line in lines:
+        stripped = line.strip()
+
+        # Horizontal rule
+        if stripped in ("---", "***", "___"):
+            if in_paragraph:
+                html_lines.append("</p>")
+                in_paragraph = False
+            html_lines.append("<hr>")
+            continue
+
+        # Headers
+        header_match = re.match(r"^(#{1,3})\s+(.+)$", stripped)
+        if header_match:
+            if in_paragraph:
+                html_lines.append("</p>")
+                in_paragraph = False
+            level = len(header_match.group(1))
+            content = _inline_markdown(header_match.group(2))
+            html_lines.append(f"<h{level}>{content}</h{level}>")
+            continue
+
+        # Empty line — close paragraph
+        if not stripped:
+            if in_paragraph:
+                html_lines.append("</p>")
+                in_paragraph = False
+            continue
+
+        # Regular text — open paragraph if needed
+        if not in_paragraph:
+            html_lines.append("<p>")
+            in_paragraph = True
+        else:
+            html_lines.append("<br>")
+
+        html_lines.append(_inline_markdown(stripped))
+
+    if in_paragraph:
+        html_lines.append("</p>")
+
+    body = "\n".join(html_lines)
+
+    return f"""<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; color: #1a1a1a; font-size: 15px; line-height: 1.6;">
+{body}
+</body>
+</html>"""
+
+
+def _inline_markdown(text: str) -> str:
+    """Convert inline markdown: bold, italic, links."""
+    # Links: [text](url)
+    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2" style="color: #2563eb;">\1</a>', text)
+    # Bold: **text**
+    text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
+    # Italic: *text*
+    text = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", text)
+    return text
 
 
 def _init_resend() -> None:
