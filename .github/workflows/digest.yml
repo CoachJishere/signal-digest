@@ -44,6 +44,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase
           git add data/seen_topics.json
-          git diff --staged --quiet || (git commit -m "Update seen_topics.json" && git push)
+          git diff --staged --quiet || (git stash && git pull --rebase && git stash pop && git add data/seen_topics.json && git commit -m "Update seen_topics.json" && git push)
