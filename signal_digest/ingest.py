@@ -74,17 +74,24 @@ def fetch_full_content_for_items(
 
     fetch_count = 0
     medium_count = 0
+    attempt_count = 0
+    # Cap total attempts at 2x max_fetches to avoid long waits when sites block
+    max_attempts = max_fetches * 2
 
     for item in candidates:
-        if fetch_count >= max_fetches:
+        if fetch_count >= max_fetches or attempt_count >= max_attempts:
             break
 
         is_medium = _is_medium_url(item["url"])
         if is_medium and medium_count >= max_medium:
             continue
 
+        # Clean URL before fetching (strip RSS tracking params)
+        fetch_url = _clean_fetch_url(item["url"])
+
         logger.info(f"Fetching full content: {item['title'][:60]}...")
-        content = _fetch_article_content(item["url"])
+        attempt_count += 1
+        content = _fetch_article_content(fetch_url)
 
         if content:
             item["full_content"] = content
@@ -189,6 +196,26 @@ def _normalize_url(url: str) -> str:
     """Normalize URL for deduplication: lowercase host, strip tracking params."""
     parsed = urlparse(url.lower())
     # Strip common tracking query params
+    tracking_params = {"utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "ref", "source"}
+    if parsed.query:
+        params = parse_qs(parsed.query)
+        filtered = {k: v for k, v in params.items() if k not in tracking_params}
+        query = urlencode(filtered, doseq=True)
+    else:
+        query = ""
+    return urlunparse((parsed.scheme, parsed.netloc, parsed.path, "", query, ""))
+
+
+def _clean_fetch_url(url: str) -> str:
+    """Clean a URL before full content fetching.
+
+    Strips RSS tracking params that can trigger 403s (especially on Medium).
+    """
+    parsed = urlparse(url)
+    # Strip all query params for Medium — the ?source=rss... params trigger 403
+    if _is_medium_url(url):
+        return urlunparse((parsed.scheme, parsed.netloc, parsed.path, "", "", ""))
+    # For other sites, just strip common tracking params
     tracking_params = {"utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "ref", "source"}
     if parsed.query:
         params = parse_qs(parsed.query)

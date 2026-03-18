@@ -27,13 +27,12 @@ def send_digest(body: str, config: dict, test_mode: bool = False) -> None:
     logger.info(f"Sending digest email: {subject}")
 
     try:
-        params = {
-            "from_": FROM_ADDRESS,
+        resend.Emails.send({
+            "from": FROM_ADDRESS,
             "to": [recipient],
             "subject": subject,
             "text": full_body,
-        }
-        resend.Emails.send(params)
+        })
         logger.info("Digest email sent successfully")
     except Exception as e:
         logger.error(f"Failed to send digest email: {e}")
@@ -61,13 +60,12 @@ def send_error_notification(config_name: str, error: str) -> None:
     )
 
     try:
-        params = {
-            "from_": FROM_ADDRESS,
+        resend.Emails.send({
+            "from": FROM_ADDRESS,
             "to": [recipient],
             "subject": subject,
             "text": body,
-        }
-        resend.Emails.send(params)
+        })
         logger.info("Error notification email sent")
     except Exception as e:
         logger.error(f"Failed to send error notification: {e}")
