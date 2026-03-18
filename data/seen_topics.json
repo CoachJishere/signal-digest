@@ -1,1 +1,1040 @@
-{}
+{
+  "ai": {
+    "topics": [
+      {
+        "tokens": [
+          "touchless",
+          "tsa"
+        ],
+        "title": "touchless id tsa",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "domain",
+          "aliens",
+          "registered",
+          "gov",
+          "17mar2026"
+        ],
+        "title": "Aliens.gov ~ domain registered 17MAR2026",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "prototype",
+          "hobbyist",
+          "tech",
+          "shoulder",
+          "mounted",
+          "missile",
+          "guided",
+          "parts",
+          "makes"
+        ],
+        "title": "Tech hobbyist makes shoulder-mounted guided missile prototype with $96 in parts",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "fraud",
+          "pardoned",
+          "comeback",
+          "trust",
+          "mounts",
+          "ceo"
+        ],
+        "title": "Pardoned for Fraud, a CEO Mounts His Comeback: 'We Can Trust You Now'",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "pike",
+          "rob",
+          "programming",
+          "rules"
+        ],
+        "title": "Rob Pike's 5 Rules of Programming",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "source",
+          "open",
+          "karaoke",
+          "computer",
+          "any",
+          "song",
+          "works",
+          "nightingale",
+          "app"
+        ],
+        "title": "Nightingale \u2013 open-source karaoke app that works with any song on your computer",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "10k",
+          "starlink",
+          "satellites",
+          "animation"
+        ],
+        "title": "Animation 10k Starlink Satellites",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "lead",
+          "ndea",
+          "hiring",
+          "symbolic",
+          "w26",
+          "guidance",
+          "search"
+        ],
+        "title": "Ndea (YC W26) is hiring a symbolic RL search guidance lead",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "tony",
+          "science",
+          "computer",
+          "hoare",
+          "celebrating",
+          "mark"
+        ],
+        "title": "Celebrating Tony Hoare's mark on computer science",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "website",
+          "fucking"
+        ],
+        "title": "Have a fucking website",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "product",
+          "design",
+          "pleasures",
+          "poor"
+        ],
+        "title": "The pleasures of poor product design",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "linux",
+          "fixing",
+          "issues",
+          "spinlock",
+          "ebpf",
+          "tale",
+          "kernel"
+        ],
+        "title": "A tale about fixing eBPF spinlock issues in the Linux kernel",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "forge",
+          "releases",
+          "mistral"
+        ],
+        "title": "Mistral AI Releases Forge",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "done",
+          "dev",
+          "system",
+          "shit",
+          "meta",
+          "engineering",
+          "spec",
+          "context",
+          "driven",
+          "prompting"
+        ],
+        "title": "Get Shit Done: A meta-prompting, context engineering and spec-driven dev system",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "credit",
+          "launch",
+          "review",
+          "emerging",
+          "kita",
+          "automate",
+          "w26",
+          "markets"
+        ],
+        "title": "Launch HN: Kita (YC W26) \u2013 Automate credit review in emerging markets",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "slug",
+          "decade"
+        ],
+        "title": "A Decade of Slug",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "python",
+          "jit",
+          "back",
+          "track"
+        ],
+        "title": "Python 3.15's JIT is now back on track",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "product",
+          "data",
+          "spice",
+          "s19",
+          "hiring",
+          "specialist"
+        ],
+        "title": "Spice Data (YC S19) Is Hiring a Product Specialist",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "studio",
+          "unsloth"
+        ],
+        "title": "Unsloth Studio",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "bliss",
+          "hacked",
+          "microsoft",
+          "unhackable",
+          "xbox"
+        ],
+        "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "completely",
+          "gamers",
+          "says",
+          "backlash",
+          "responds",
+          "dlss",
+          "nvidia",
+          "ceo",
+          "jensen",
+          "huang",
+          "wrong"
+        ],
+        "title": "Jensen Huang says gamers are 'completely wrong' about DLSS 5 \u2014 Nvidia CEO responds to DLSS 5 backlash",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "spanning",
+          "computing",
+          "chips",
+          "space",
+          "nvidia",
+          "unveils",
+          "infrastructure"
+        ],
+        "title": "Nvidia unveils AI infrastructure spanning chips to space computing",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "moltbook",
+          "acquisition",
+          "sense",
+          "meta",
+          "patent",
+          "lot",
+          "read",
+          "filings",
+          "makes"
+        ],
+        "title": "The Moltbook acquisition makes a lot more sense when you read one of Meta's patent filings",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "techcrunch",
+          "pentagon",
+          "llms",
+          "own",
+          "developing"
+        ],
+        "title": "The Pentagon is developing its own LLMs | TechCrunch",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "truly",
+          "marketing",
+          "threatened",
+          "jobs"
+        ],
+        "title": "Are marketing jobs truly threatened by AI?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "open",
+          "source",
+          "built",
+          "llms",
+          "brains",
+          "same",
+          "scaffolding",
+          "way",
+          "research",
+          "both",
+          "instructions",
+          "forget",
+          "adhd"
+        ],
+        "title": "LLMs forget instructions the same way ADHD brains do. I built scaffolding for both. Research + open source.",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "further",
+          "psychological",
+          "126",
+          "tracking",
+          "harm",
+          "induced",
+          "reported",
+          "documented",
+          "those",
+          "built",
+          "split",
+          "journals",
+          "cases",
+          "want",
+          "site",
+          "between",
+          "feedback",
+          "welcome",
+          "reporting",
+          "academic",
+          "since",
+          "research",
+          "january",
+          "far"
+        ],
+        "title": "Built a site for tracking reported cases of AI-induced psychological harm since January. 126 cases documented so far. Split between reporting and academic journals for those who might want to research further. Feedback welcome",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "treat",
+          "matter",
+          "claude",
+          "sure",
+          "respect"
+        ],
+        "title": "Sure, I Treat Claude with Respect, but Does it Matter?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "europe",
+          "source",
+          "open",
+          "built",
+          "server",
+          "ask",
+          "right",
+          "tracking",
+          "time",
+          "flying",
+          "satellite",
+          "flight",
+          "claude",
+          "web",
+          "real",
+          "mcp",
+          "app"
+        ],
+        "title": "I built an open-source MCP server/ AI web app for real-time flight and satellite tracking \u2014 ask Claude \"what's flying over Europe right now?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "technology",
+          "invasive",
+          "warrior",
+          "way"
+        ],
+        "title": "AI, Invasive Technology, and the Way of the Warrior",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "notebooklm",
+          "help",
+          "need"
+        ],
+        "title": "need some help with notebookLM",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "arxiv",
+          "endorser",
+          "want"
+        ],
+        "title": "Want arXiv endorser (cs.AI)",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "layer",
+          "execution",
+          "happen",
+          "authorization",
+          "prompt",
+          "built",
+          "agents",
+          "problems",
+          "boundary",
+          "taught",
+          "most",
+          "building",
+          "safety"
+        ],
+        "title": "Building AI agents taught me that most safety problems happen at the execution layer, not the prompt layer. So I built an authorization boundary",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "very",
+          "anyone",
+          "rant",
+          "itself",
+          "bad",
+          "else",
+          "feel",
+          "way",
+          "future",
+          "scary"
+        ],
+        "title": "Rant: AI itself is scary. This could be very bad for the future. Anyone else feel way?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "used",
+          "llms",
+          "agreeing",
+          "papers",
+          "despite",
+          "reviewers",
+          "rejects",
+          "icml"
+        ],
+        "title": "[D] ICML rejects papers of reviewers who used LLMs despite agreeing not to",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "clipping",
+          "300",
+          "pdf",
+          "grokking",
+          "failures",
+          "weight",
+          "norm",
+          "across",
+          "repo",
+          "seeds",
+          "zero",
+          "accelerates"
+        ],
+        "title": "[P] Weight Norm Clipping Accelerates Grokking 18-66\u00d7 | Zero Failures Across 300 Seeds | PDF in Repo",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "gradient",
+          "causes",
+          "emerge",
+          "normalisation",
+          "misalignment",
+          "descent"
+        ],
+        "title": "[R] A Gradient Descent Misalignment \u2014 Causes Normalisation To Emerge",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "dense",
+          "tridiagonal",
+          "inference",
+          "cheaper",
+          "models",
+          "spectral",
+          "eigenvalue",
+          "training",
+          "pytorch"
+        ],
+        "title": "[P] Tridiagonal eigenvalue models in PyTorch: cheaper training/inference than dense spectral models",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "discards",
+          "built",
+          "autoresearch",
+          "keeps",
+          "confidence",
+          "reproduce",
+          "because",
+          "scoring",
+          "worse",
+          "don"
+        ],
+        "title": "[P] Built confidence scoring for autoresearch because keeps that don't reproduce are worse than discards",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "fails",
+          "latent",
+          "gigo",
+          "data",
+          "prerequisites",
+          "dimensional",
+          "garbage",
+          "benign",
+          "structure",
+          "proof",
+          "connection",
+          "overfitting",
+          "gold",
+          "high",
+          "formal"
+        ],
+        "title": "[R] From Garbage to Gold: A Formal Proof that GIGO Fails for High-Dimensional Data with Latent Structure \u2014 with a Connection to Benign Overfitting Prerequisites",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "token",
+          "transformer",
+          "activity",
+          "visualizing",
+          "level"
+        ],
+        "title": "[P] Visualizing token-level activity in a transformer",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "book",
+          "alignment",
+          "code",
+          "papers",
+          "seminal",
+          "evaluation"
+        ],
+        "title": "Evaluation and Alignment: The Seminal Papers (new book + 50% code)",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "phd",
+          "process",
+          "machine",
+          "malaysia",
+          "industry",
+          "learning",
+          "topic",
+          "gaps",
+          "monitoring",
+          "needs",
+          "research",
+          "ideas"
+        ],
+        "title": "[R] PhD Topic Ideas (Malaysia): Machine Learning for Process Monitoring \u2013 Industry Needs & Research Gaps",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "transparent",
+          "reasoning",
+          "multimodal",
+          "answers",
+          "benchmark",
+          "crystal",
+          "beyond",
+          "evaluation",
+          "final"
+        ],
+        "title": "[R] Beyond Final Answers: CRYSTAL Benchmark for Transparent Multimodal Reasoning Evaluation",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "workshops",
+          "cvpr",
+          "submission"
+        ],
+        "title": "[D] : Submission ID in CVPR Workshops.",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "open",
+          "source",
+          "built",
+          "visual",
+          "code",
+          "drop",
+          "required",
+          "free",
+          "trainer",
+          "drag"
+        ],
+        "title": "[P] I built a visual drag-and-drop ML trainer (no code required). Free & open source.",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "looked",
+          "chatgpt"
+        ],
+        "title": "This is what chatGPT looked like in the 90's",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "ones",
+          "dash",
+          "keep",
+          "noticing",
+          "giveaway",
+          "gone",
+          "these"
+        ],
+        "title": "the em dash giveaway is gone, these are the new ones i keep noticing",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "ragebaited",
+          "everytime",
+          "chatgpt",
+          "feel",
+          "use"
+        ],
+        "title": "I feel ragebaited everytime I use ChatGPT",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "thanks",
+          "guess"
+        ],
+        "title": "Thanks I guess",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "russian",
+          "speaking",
+          "chatgpt"
+        ],
+        "title": "Why chatgpt speaking Russian",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "percent",
+          "fooled",
+          "gpt",
+          "human",
+          "pretending",
+          "dumber",
+          "thinking",
+          "people"
+        ],
+        "title": "GPT-4.5 fooled 73 percent of people into thinking it was human by pretending to be dumber",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "starting",
+          "very",
+          "insensitive",
+          "chatgpt"
+        ],
+        "title": "Is it just me or is ChatGPT starting to get very insensitive?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "chatgpt",
+          "models",
+          "end",
+          "moves",
+          "quickly",
+          "most",
+          "support"
+        ],
+        "title": "ChatGPT moves quickly to end support for most models",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "awareness",
+          "chatgpt",
+          "time"
+        ],
+        "title": "ChatGPT\u2019s Awareness of Time",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "hell",
+          "add",
+          "button",
+          "details",
+          "rid"
+        ],
+        "title": "Why the hell would they get rid of the \u201cadd details\u201d button",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "silent",
+          "update",
+          "again",
+          "much",
+          "feels"
+        ],
+        "title": "5.3 got an silent update, feels much more like 5.1 again",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "talk",
+          "person"
+        ],
+        "title": "Do you talk to AI like a person?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "camera",
+          "unlimited",
+          "lets",
+          "prompt",
+          "complex",
+          "control",
+          "images",
+          "based",
+          "prompts",
+          "don",
+          "built",
+          "builder",
+          "lens",
+          "style",
+          "videos",
+          "100",
+          "lighting",
+          "visual",
+          "chatgpt",
+          "models",
+          "free",
+          "write"
+        ],
+        "title": "I built a ChatGPT visual prompt builder for AI images/videos so you don\u2019t have to write complex prompts that lets you control camera, lens, lighting, and style for AI based on AI models (It's 100% Unlimited Free)",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "chatgpt",
+          "clear",
+          "thank",
+          "dogs",
+          "dog"
+        ],
+        "title": "Dogs (like the dog), thank you ChatGPT for that clear up",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "model",
+          "picker"
+        ],
+        "title": "New model picker UI",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "gpt",
+          "free",
+          "business"
+        ],
+        "title": "Free Business From GPT",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "open",
+          "source",
+          "chatgpt",
+          "gave",
+          "actually",
+          "memory",
+          "persistent",
+          "works"
+        ],
+        "title": "I gave ChatGPT persistent memory that actually works \u2014 open source",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "times",
+          "aggressive",
+          "kind",
+          "chatgpt",
+          "passive"
+        ],
+        "title": "Is it just me or is ChatGPT kind of passive aggressive at times?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "chatgpt",
+          "hallucinating",
+          "basic",
+          "tasks",
+          "crazy"
+        ],
+        "title": "ChatGPT hallucinating for basic tasks is crazy!",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "perfect",
+          "chatgpt",
+          "isn"
+        ],
+        "title": "ChatGPT isn't perfect???",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "fails",
+          "devs",
+          "250m",
+          "used",
+          "subnautica",
+          "chatgpt",
+          "bonus",
+          "try",
+          "ceo",
+          "payment",
+          "court",
+          "krafton",
+          "dodge"
+        ],
+        "title": "Krafton CEO Used ChatGPT to Try and Dodge $250M Bonus Payment to Subnautica Devs, Fails in Court",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "fuck",
+          "yeah"
+        ],
+        "title": "Yeah so like what the fuck..?",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "model",
+          "picker",
+          "business",
+          "chatgbt",
+          "disappeared"
+        ],
+        "title": "Model picker disappeared for chatgbt business",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "anymore",
+          "real",
+          "tell"
+        ],
+        "title": "When you can't tell what's real or AI anymore",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "interactive",
+          "widgets",
+          "visualization",
+          "math"
+        ],
+        "title": "New interactive math visualization widgets",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "openai",
+          "content",
+          "business",
+          "following",
+          "wrestles",
+          "adult",
+          "strategy"
+        ],
+        "title": "Following: OpenAI wrestles with business strategy (and adult content)",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "didn",
+          "job",
+          "valuable",
+          "disappeared",
+          "lose",
+          "parts"
+        ],
+        "title": "I Didn\u2019t Lose My Job. The Valuable Parts of It Disappeared",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "helm",
+          "built"
+        ],
+        "title": "Why We Built HELM",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "rise",
+          "tickeron",
+          "trading",
+          "push",
+          "financial",
+          "learning",
+          "meets",
+          "volatility",
+          "market",
+          "inside"
+        ],
+        "title": "AI Trading Meets Market Volatility: Inside Tickeron\u2019s Q1 Push and the Rise of Financial Learning\u2026",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "source",
+          "here",
+          "rag",
+          "trust",
+          "reliable",
+          "makes"
+        ],
+        "title": "From \u201cTrust Me\u201d to \u201cHere\u2019s the Source\u201d: How RAG Makes AI Reliable",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "laptop",
+          "mac",
+          "broken",
+          "mini",
+          "saved",
+          "buying"
+        ],
+        "title": "How a Broken Laptop Saved Me From Buying a Mac Mini",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "accomplices",
+          "operators",
+          "complicity",
+          "users",
+          "framework"
+        ],
+        "title": "The Complicity Framework: Why AI Users Are Accomplices, Not Just Operators",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "intelligence",
+          "artificial",
+          "2026",
+          "hire",
+          "complete",
+          "developer",
+          "guide",
+          "app"
+        ],
+        "title": "How to Hire an Artificial Intelligence App Developer: A Complete 2026 Guide",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "less",
+          "car",
+          "way",
+          "only",
+          "guaranteed",
+          "any",
+          "buy",
+          "revolutionary"
+        ],
+        "title": "Revolutionary - The Only Way To Buy Any New Car For Less - Guaranteed",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "compressed",
+          "protocol",
+          "aegis",
+          "safequant",
+          "securing",
+          "slm",
+          "introducing",
+          "future"
+        ],
+        "title": "Introducing SafeQuant-SLM: Securing the Future of Compressed AI with the AEGIS-4 Protocol",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      },
+      {
+        "tokens": [
+          "revision",
+          "ada",
+          "interview",
+          "algorithm",
+          "boost"
+        ],
+        "title": "Ada Boost Algorithm: Interview Revision in One Go",
+        "first_seen": "2026-03-18T14:38:06.056390+00:00"
+      }
+    ]
+  }
+}
