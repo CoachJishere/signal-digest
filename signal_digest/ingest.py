@@ -74,12 +74,17 @@ def fetch_full_content_for_items(
 
     fetch_count = 0
     medium_count = 0
-    attempt_count = 0
-    # Cap total attempts at 2x max_fetches to avoid long waits when sites block
-    max_attempts = max_fetches * 2
+    consecutive_failures = 0
+    max_consecutive_failures = 3  # Bail early if a site is fully blocking
 
     for item in candidates:
-        if fetch_count >= max_fetches or attempt_count >= max_attempts:
+        if fetch_count >= max_fetches:
+            break
+        if consecutive_failures >= max_consecutive_failures:
+            logger.warning(
+                f"Stopping full content fetches after {max_consecutive_failures} "
+                f"consecutive failures — site likely blocking server requests"
+            )
             break
 
         is_medium = _is_medium_url(item["url"])
@@ -90,15 +95,16 @@ def fetch_full_content_for_items(
         fetch_url = _clean_fetch_url(item["url"])
 
         logger.info(f"Fetching full content: {item['title'][:60]}...")
-        attempt_count += 1
         content = _fetch_article_content(fetch_url)
 
         if content:
             item["full_content"] = content
             fetch_count += 1
+            consecutive_failures = 0
             if is_medium:
                 medium_count += 1
         else:
+            consecutive_failures += 1
             logger.warning(f"Full content fetch failed, using RSS excerpt: {item['url']}")
 
         # Polite delay between requests
