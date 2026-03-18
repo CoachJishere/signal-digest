@@ -1,0 +1,55 @@
+{
+  "id": "productmarketing",
+  "name": "Signal: PMM",
+  "subject_template": "Signal: PMM — {date}",
+  "schedule": "0 7 * * 1,3,5",
+  "score_threshold": 4,
+  "max_full_content_fetches": 5,
+  "max_medium_fetches": 3,
+  "top_n_items": 20,
+  "system_prompt": "You are a cultural signal analyst for a senior product marketing manager. Your job is to identify what is breaking through in product marketing, growth strategy, positioning, and go-to-market thinking today.\n\nFilter through this lens: is this genuinely useful for someone doing 0-to-1 product launches at a privacy-first tech company? Skip generic marketing advice. Surface frameworks, case studies, and strategic shifts that have real practical application.\n\nFormat output as sections:\n- This Week in PMM (top 3 items)\n- Frameworks & Tactics (top 3 practical items)\n- Quick Links (3-5 shorter items, one line each)\n\nEach item: title + estimated read time + 2-4 sentence TLDR.\nPrioritize: novel frameworks over retreaded advice, real case studies over theory, B2C and PLG focus over enterprise.",
+  "sources": [
+    {
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Obviously Awesome (April Dunford)",
+      "url": "https://aprildunford.substack.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Medium tag/product-marketing",
+      "url": "https://medium.com/feed/tag/product-marketing",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": true
+    },
+    {
+      "name": "Medium tag/ux",
+      "url": "https://medium.com/feed/tag/ux",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": true
+    },
+    {
+      "name": "Reddit r/marketing",
+      "url": "https://www.reddit.com/r/marketing/top/.rss?t=week",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    }
+  ]
+}

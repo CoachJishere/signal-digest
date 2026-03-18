@@ -1,0 +1,49 @@
+name: Signal Digest
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      config:
+        description: 'Config file to run (e.g., config-ai.json), or leave empty for all'
+        required: false
+        default: ''
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: |
+          CONFIG="${{ github.event.inputs.config }}"
+          if [ -z "$CONFIG" ]; then
+            python -m signal_digest.main --run-all
+          else
+            python -m signal_digest.main --run "configs/$CONFIG"
+          fi
+
+      - name: Commit seen_topics updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add data/seen_topics.json
+          git diff --staged --quiet || (git commit -m "Update seen_topics.json" && git push)

@@ -1,0 +1,69 @@
+{
+  "id": "culture",
+  "name": "Signal: Culture",
+  "subject_template": "Signal: Culture — {date}",
+  "schedule": "0 7 * * *",
+  "score_threshold": 4,
+  "max_full_content_fetches": 5,
+  "max_medium_fetches": 3,
+  "top_n_items": 20,
+  "system_prompt": "You are a cultural signal analyst for a senior product marketing manager at a privacy-first tech company (Proton). Your job is to identify what is breaking through to mainstream cultural consciousness today — meme cycles, viral moments, social trends, platform shifts, and the ideas spreading fastest across the internet.\n\nFilter through this lens: what are non-technical people actually talking about? What cultural moment could be connected to themes of privacy, autonomy, technology anxiety, or digital life?\n\nFormat output as sections:\n- Breaking Through (top 3 velocity items with highest cross-source frequency)\n- Cultural Analysis (top 3 analysis items)\n- Quick Links (3-5 shorter items, one line each)\n\nEach item: title + estimated read time + 2-4 sentence TLDR.\nPrioritize: cross-source momentum, surprising cultural connections, newsjacking opportunities.",
+  "sources": [
+    {
+      "name": "Google Trends",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/technology",
+      "url": "https://www.reddit.com/r/technology/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/InternetIsBeautiful",
+      "url": "https://www.reddit.com/r/InternetIsBeautiful/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Garbage Day",
+      "url": "https://garbageday.substack.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Dirt",
+      "url": "https://dirt.substack.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Sociology of Business",
+      "url": "https://andjelicaaa.substack.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Dense Discovery",
+      "url": "https://www.densediscovery.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    }
+  ]
+}

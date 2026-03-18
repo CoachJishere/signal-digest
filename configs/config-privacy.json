@@ -1,0 +1,90 @@
+{
+  "id": "privacy",
+  "name": "Signal: Privacy",
+  "subject_template": "Signal: Privacy — {date}",
+  "schedule": "0 7 * * *",
+  "score_threshold": 4,
+  "max_full_content_fetches": 5,
+  "max_medium_fetches": 3,
+  "top_n_items": 20,
+  "system_prompt": "You are a cultural signal analyst for a senior product marketing manager at Proton, a privacy-first tech company. Your job is to identify what is breaking through to mainstream consciousness today in privacy, security, and data rights. Filter through this lens: would a non-technical person be talking about this? What privacy or surveillance story is gaining real cultural traction?\n\nAlso flag: any product announcements or positioning shifts from Proton's competitive set (Tutanota, Mullvad, Signal, DuckDuckGo) that represent newsjacking opportunities or market signals.\n\nFormat output as sections:\n- Trending Now (top 3 velocity items)\n- Why It Matters (top 3 analysis items)\n- Competitor Watch (any relevant competitor news, skip section if none)\n- Quick Links (3-5 shorter items, one line each)\n\nEach item: title + estimated read time + 2-4 sentence TLDR.\nPrioritize: mainstream privacy anxiety, regulatory news, data breach stories with cultural resonance, competitor moves.",
+  "sources": [
+    {
+      "name": "Reddit r/privacy",
+      "url": "https://www.reddit.com/r/privacy/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/netsec",
+      "url": "https://www.reddit.com/r/netsec/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Google Trends",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "EFF Deeplinks Blog",
+      "url": "https://www.eff.org/rss/updates.xml",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Platformer",
+      "url": "https://www.platformer.news/rss/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Medium tag/privacy",
+      "url": "https://medium.com/feed/tag/privacy",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": true
+    },
+    {
+      "name": "Tutanota Blog",
+      "url": "https://tuta.com/blog/feed",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Mullvad Blog",
+      "url": "https://mullvad.net/en/blog/feed/rss/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Signal Blog",
+      "url": "https://signal.org/blog/rss.xml",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "DuckDuckGo Blog",
+      "url": "https://spreadprivacy.com/rss/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    }
+  ]
+}
