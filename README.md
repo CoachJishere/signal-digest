@@ -1,4 +1,4 @@
-# Signal Digest
+# Damelo
 
 Automated newsletter digest tool that monitors RSS feeds, scores items by trust/frequency/novelty, summarizes with Claude, and delivers via email.
 
@@ -14,16 +14,16 @@ Automated newsletter digest tool that monitors RSS feeds, scores items by trust/
 
 ```bash
 # Run a single config
-python -m signal_digest.main --run configs/config-ai.json
+python -m damelo.main --run configs/config-ai.json
 
 # Dry run (no Claude, no email)
-python -m signal_digest.main --test configs/config-ai.json
+python -m damelo.main --test configs/config-ai.json
 
 # Test with email (sends with [TEST] prefix)
-python -m signal_digest.main --test-email configs/config-ai.json
+python -m damelo.main --test-email configs/config-ai.json
 
 # Run all active configs matching their cron schedule
-python -m signal_digest.main --run-all
+python -m damelo.main --run-all
 ```
 
 ## Configs

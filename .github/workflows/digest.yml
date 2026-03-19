@@ -1,4 +1,4 @@
-name: Signal Digest
+name: Damelo
 
 on:
   schedule:
@@ -38,9 +38,9 @@ jobs:
         run: |
           CONFIG="${{ github.event.inputs.config }}"
           if [ -z "$CONFIG" ]; then
-            python -m signal_digest.main --run-all
+            python -m damelo.main --run-all
           else
-            python -m signal_digest.main --run "configs/$CONFIG"
+            python -m damelo.main --run "configs/$CONFIG"
           fi
 
       - name: Commit seen_topics updates

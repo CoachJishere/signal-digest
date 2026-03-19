@@ -1,4 +1,4 @@
-"""CLI entry point for Signal Digest."""
+"""CLI entry point for Damelo."""
 
 import argparse
 import logging
@@ -25,7 +25,7 @@ DEFAULT_MANIFEST = "configs/configs.json"
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Signal Digest — newsletter digest tool")
+    parser = argparse.ArgumentParser(description="Damelo — newsletter digest tool")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--run", metavar="CONFIG", help="Run digest for a config file")
     group.add_argument(

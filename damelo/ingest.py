@@ -19,7 +19,7 @@ from dateutil import parser as dateparser
 
 logger = logging.getLogger(__name__)
 
-USER_AGENT = "signal-digest/1.0 (newsletter bot)"
+USER_AGENT = "damelo/1.0 (newsletter bot)"
 
 
 def run_ingestion(config: dict) -> list[dict]:

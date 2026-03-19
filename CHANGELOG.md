@@ -1,8 +1,11 @@
 # Changelog
 
-All notable changes to Signal Digest are documented here.
+All notable changes to Damelo are documented here.
 
 ## [Unreleased]
+
+### Changed
+- Renamed project from Signal Digest to Damelo across all files, package directory, workflow, and email templates
 
 ### Added
 - Within-digest deduplication: items with >=0.5 Jaccard similarity on title tokens are collapsed, keeping the higher-scoring one
@@ -49,4 +52,4 @@ All notable changes to Signal Digest are documented here.
 ## [2025-03-14]
 
 ### Added
-- Initial commit: signal-digest newsletter tool
+- Initial commit: damelo newsletter tool
