@@ -85,6 +85,27 @@
       "signal_type": "analysis",
       "trust_weight": 2,
       "fetch_full_content": false
+    },
+    {
+      "name": "noyb",
+      "url": "https://noyb.eu/en/rss.xml",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "IAPP News",
+      "url": "https://iapp.org/news/rss/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Euractiv Tech",
+      "url": "https://www.euractiv.com/sections/digital/feed/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
     }
   ]
 }

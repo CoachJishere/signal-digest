@@ -17,15 +17,22 @@
       "fetch_full_content": false
     },
     {
-      "name": "Reddit r/all",
-      "url": "https://www.reddit.com/r/all/top/.rss?t=day",
+      "name": "Reddit r/OutOfTheLoop",
+      "url": "https://www.reddit.com/r/OutOfTheLoop/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/popculturechat",
+      "url": "https://www.reddit.com/r/popculturechat/top/.rss?t=day",
       "signal_type": "velocity",
       "trust_weight": 2,
       "fetch_full_content": false
     },
     {
-      "name": "Reddit r/entertainment",
-      "url": "https://www.reddit.com/r/entertainment/top/.rss?t=day",
+      "name": "Reddit r/movies",
+      "url": "https://www.reddit.com/r/movies/top/.rss?t=day",
       "signal_type": "velocity",
       "trust_weight": 2,
       "fetch_full_content": false
@@ -35,6 +42,13 @@
       "url": "https://www.reddit.com/r/television/top/.rss?t=day",
       "signal_type": "velocity",
       "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "YouTube Trending",
+      "url": "https://www.youtube.com/feeds/videos.xml?chart=most_popular&hl=en&gl=US",
+      "signal_type": "velocity",
+      "trust_weight": 3,
       "fetch_full_content": false
     },
     {
@@ -64,6 +78,30 @@
       "signal_type": "analysis",
       "trust_weight": 2,
       "fetch_full_content": false
+    },
+    {
+      "name": "Variety",
+      "url": "https://variety.com/feed/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Entertainment Weekly",
+      "url": "https://ew.com/feed/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "TikTok Trending (Apify)",
+      "source_type": "apify",
+      "apify_actor_url": "https://api.apify.com/v2/acts/clockworks~tiktok-scraper/runs",
+      "active": false,
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false,
+      "_note": "Requires APIFY_API_KEY secret in GitHub Actions. Estimated cost ~$20/month. Set active: true to enable."
     }
   ]
 }

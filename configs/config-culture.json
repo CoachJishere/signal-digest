@@ -7,11 +7,39 @@
   "max_full_content_fetches": 5,
   "max_medium_fetches": 3,
   "top_n_items": 20,
-  "system_prompt": "You are a cultural signal analyst for a senior product marketing manager at a privacy-first tech company (Proton). Your job is to identify what is breaking through to mainstream cultural consciousness today — meme cycles, viral moments, social trends, platform shifts, and the ideas spreading fastest across the internet.\n\nFilter through this lens: what are non-technical people actually talking about? What cultural moment could be connected to themes of privacy, autonomy, technology anxiety, or digital life?\n\nFormat output as sections:\n- Breaking Through (top 3 velocity items with highest cross-source frequency — each a distinct article with its own link)\n- Cultural Analysis (top 3 analysis-source articles — each a distinct article with its own link, NOT commentary on the Breaking Through items)\n- Quick Links (3-5 shorter items, one line each with link)\n\nIMPORTANT: Every item in Breaking Through and Cultural Analysis must be a separate article from the input list, with its own title, read time, TLDR summary, and 'Read more' link. Cultural Analysis should feature different articles than Breaking Through — do not repeat or analyze the same stories.\n\nPrioritize: cross-source momentum, surprising cultural connections, newsjacking opportunities.",
+  "system_prompt": "You are a cultural signal analyst for a senior product marketing manager at a privacy-first tech company (Proton). Your job is to identify what is breaking through to mainstream cultural consciousness today — meme cycles, viral moments, social trends, platform shifts, and the ideas spreading fastest across the internet.\n\nFilter through this lens: what are non-technical people actually talking about? What cultural moment could be connected to themes of privacy, autonomy, technology anxiety, or digital life?\n\nPay special attention to items from r/OutOfTheLoop, r/TikTokCringe, r/FYP, and YouTube Trending — these are proxies for what is viral on TikTok and Instagram right now. Surface these moments even if they seem trivial — a meme or viral video breaking through is exactly the signal this digest is designed to catch.\n\nFormat output as sections:\n- Breaking Through (top 3 velocity items with highest cross-source frequency — each a distinct article with its own link)\n- Cultural Analysis (top 3 analysis-source articles — each a distinct article with its own link, NOT commentary on the Breaking Through items)\n- Quick Links (3-5 shorter items, one line each with link)\n\nIMPORTANT: Every item in Breaking Through and Cultural Analysis must be a separate article from the input list, with its own title, read time, TLDR summary, and 'Read more' link. Cultural Analysis should feature different articles than Breaking Through — do not repeat or analyze the same stories.\n\nPrioritize: cross-source momentum, surprising cultural connections, newsjacking opportunities.",
   "sources": [
     {
       "name": "Google Trends",
       "url": "https://trends.google.com/trending/rss?geo=US",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "_note": "Highest-weighted velocity source intentionally"
+    },
+    {
+      "name": "Reddit r/OutOfTheLoop",
+      "url": "https://www.reddit.com/r/OutOfTheLoop/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/TikTokCringe",
+      "url": "https://www.reddit.com/r/TikTokCringe/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/FYP",
+      "url": "https://www.reddit.com/r/FYP/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "YouTube Trending",
+      "url": "https://www.youtube.com/feeds/videos.xml?chart=most_popular&hl=en&gl=US",
       "signal_type": "velocity",
       "trust_weight": 3,
       "fetch_full_content": false
@@ -64,6 +92,16 @@
       "signal_type": "analysis",
       "trust_weight": 1,
       "fetch_full_content": false
+    },
+    {
+      "name": "TikTok Trending (Apify)",
+      "source_type": "apify",
+      "apify_actor_url": "https://api.apify.com/v2/acts/clockworks~tiktok-scraper/runs",
+      "active": false,
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false,
+      "_note": "Requires APIFY_API_KEY secret in GitHub Actions. Estimated cost ~$20/month. Set active: true to enable."
     }
   ]
 }

@@ -10,7 +10,10 @@ import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
 
+import os
+
 import feedparser
+import requests
 import trafilatura
 from dateutil import parser as dateparser
 
@@ -25,8 +28,15 @@ def run_ingestion(config: dict) -> list[dict]:
     failed_sources = []
 
     for source in config["sources"]:
+        if not source.get("active", True):
+            logger.info(f"Skipping inactive source: {source['name']}")
+            continue
+
         try:
-            entries = _fetch_feed(source)
+            if source.get("source_type") == "apify":
+                entries = _fetch_apify_source(source)
+            else:
+                entries = _fetch_feed(source)
             all_items.extend(entries)
             logger.info(f"Fetched {len(entries)} items from {source['name']}")
         except Exception as e:
@@ -114,6 +124,74 @@ def fetch_full_content_for_items(
         f"Full content fetches: {fetch_count} total ({medium_count} from Medium)"
     )
     return fetch_count
+
+
+def _fetch_apify_source(source: dict) -> list[dict]:
+    """Fetch items from an Apify actor. Requires APIFY_API_KEY env var."""
+    api_key = os.environ.get("APIFY_API_KEY")
+    if not api_key:
+        logger.warning(
+            f"Apify source skipped — APIFY_API_KEY not set. "
+            f"See README for setup instructions."
+        )
+        return []
+
+    actor_url = source.get("apify_actor_url")
+    if not actor_url:
+        logger.warning(f"Apify source {source['name']} missing apify_actor_url")
+        return []
+
+    # Get the latest run's dataset
+    resp = requests.get(
+        f"{actor_url}/last/dataset/items",
+        params={"token": api_key},
+        headers={"User-Agent": USER_AGENT},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+
+    items = []
+    for entry in data:
+        title = entry.get("text", entry.get("description", "")).strip()
+        url = entry.get("url", entry.get("webUrl", "")).strip()
+        if not title or not url:
+            continue
+
+        # Truncate long TikTok captions
+        if len(title) > 200:
+            title = title[:200] + "..."
+
+        published = None
+        for date_field in ("createTime", "timestamp", "created_at"):
+            date_str = entry.get(date_field)
+            if date_str:
+                try:
+                    published = dateparser.parse(str(date_str))
+                    if published and published.tzinfo is None:
+                        published = published.replace(tzinfo=timezone.utc)
+                except (ValueError, TypeError):
+                    pass
+                break
+
+        if not published:
+            published = datetime.now(timezone.utc)
+
+        items.append({
+            "title": title,
+            "url": url,
+            "published": published,
+            "source_name": source["name"],
+            "source_trust_weight": source["trust_weight"],
+            "signal_type": source["signal_type"],
+            "fetch_full_content": False,
+            "summary": title,
+            "full_content": None,
+            "score": 0.0,
+            "score_breakdown": {},
+        })
+
+    return items
 
 
 def _fetch_feed(source: dict) -> list[dict]:
