@@ -1,7 +1,7 @@
 {
   "id": "zeitgeist",
-  "name": "Damelo: Zeitgeist",
-  "subject_template": "Damelo: Zeitgeist — {date}",
+  "name": "Gimme Gimme: Zeitgeist",
+  "subject_template": "Gimme Gimme: Zeitgeist — {date}",
   "schedule": "0 7 * * *",
   "score_threshold": 4,
   "max_full_content_fetches": 5,

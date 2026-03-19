@@ -9,7 +9,7 @@ import resend
 
 logger = logging.getLogger(__name__)
 
-FROM_ADDRESS = "Damelo <onboarding@resend.dev>"
+FROM_ADDRESS = "Gimme Gimme <onboarding@resend.dev>"
 
 
 def send_digest(body: str, config: dict, test_mode: bool = False) -> None:
@@ -23,7 +23,7 @@ def send_digest(body: str, config: dict, test_mode: bool = False) -> None:
         subject = f"[TEST] {subject}"
 
     # Append footer
-    full_body = f"{body}\n\n---\nDamelo — {config['name']}\nGenerated {today}"
+    full_body = f"{body}\n\n---\nGimme Gimme — {config['name']}\nGenerated {today}"
 
     # Convert markdown to simple HTML for email rendering
     html_body = _markdown_to_html(full_body)

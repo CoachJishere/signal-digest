@@ -1,7 +1,7 @@
 {
   "id": "progressive",
-  "name": "Damelo: Progressive",
-  "subject_template": "Damelo: Progressive — {date}",
+  "name": "Gimme Gimme: Progressive",
+  "subject_template": "Gimme Gimme: Progressive — {date}",
   "schedule": "0 7 * * *",
   "score_threshold": 4,
   "max_full_content_fetches": 5,

@@ -1,7 +1,7 @@
 {
   "id": "culture",
-  "name": "Damelo: Culture",
-  "subject_template": "Damelo: Culture — {date}",
+  "name": "Gimme Gimme: Culture",
+  "subject_template": "Gimme Gimme: Culture — {date}",
   "schedule": "0 7 * * *",
   "score_threshold": 4,
   "max_full_content_fetches": 5,

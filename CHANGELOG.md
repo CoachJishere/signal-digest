@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Damelo are documented here.
+All notable changes to Gimme Gimme are documented here.
 
 ## [Unreleased]
 
@@ -9,8 +9,9 @@ All notable changes to Damelo are documented here.
 - `config-zeitgeist.json` profile for tracking cultural movement momentum (rising/falling/shifting)
 
 ### Changed
-- Renamed project from Signal Digest to Damelo across all files, package directory, workflow, and email templates
-- All config subject lines and names updated from "Signal:" to "Damelo:" prefix
+- Rebranded from Damelo to Gimme Gimme across all files, package directory, workflow, and email templates
+- Renamed project from Signal Digest to Damelo, then to Gimme Gimme
+- All config subject lines and names updated to "Gimme Gimme:" prefix
 
 ### Added
 - Within-digest deduplication: items with >=0.5 Jaccard similarity on title tokens are collapsed, keeping the higher-scoring one
@@ -57,4 +58,4 @@ All notable changes to Damelo are documented here.
 ## [2025-03-14]
 
 ### Added
-- Initial commit: damelo newsletter tool
+- Initial commit: newsletter digest tool

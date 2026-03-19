@@ -1,7 +1,7 @@
 {
   "id": "mainstream",
-  "name": "Damelo: Mainstream",
-  "subject_template": "Damelo: Mainstream — {date}",
+  "name": "Gimme Gimme: Mainstream",
+  "subject_template": "Gimme Gimme: Mainstream — {date}",
   "schedule": "0 7 * * *",
   "score_threshold": 4,
   "max_full_content_fetches": 5,
