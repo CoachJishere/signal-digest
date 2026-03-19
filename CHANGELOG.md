@@ -4,8 +4,13 @@ All notable changes to Damelo are documented here.
 
 ## [Unreleased]
 
+### Added
+- `config-progressive.json` profile for queer and progressive culture signal
+- `config-zeitgeist.json` profile for tracking cultural movement momentum (rising/falling/shifting)
+
 ### Changed
 - Renamed project from Signal Digest to Damelo across all files, package directory, workflow, and email templates
+- All config subject lines and names updated from "Signal:" to "Damelo:" prefix
 
 ### Added
 - Within-digest deduplication: items with >=0.5 Jaccard similarity on title tokens are collapsed, keeping the higher-scoring one

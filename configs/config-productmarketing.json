@@ -1,7 +1,7 @@
 {
   "id": "productmarketing",
-  "name": "Signal: PMM",
-  "subject_template": "Signal: PMM — {date}",
+  "name": "Damelo: PMM",
+  "subject_template": "Damelo: PMM — {date}",
   "schedule": "0 7 * * 1,3,5",
   "score_threshold": 4,
   "max_full_content_fetches": 5,

@@ -1,0 +1,83 @@
+{
+  "id": "progressive",
+  "name": "Damelo: Progressive",
+  "subject_template": "Damelo: Progressive — {date}",
+  "schedule": "0 7 * * *",
+  "score_threshold": 4,
+  "max_full_content_fetches": 5,
+  "max_medium_fetches": 3,
+  "top_n_items": 20,
+  "system_prompt": "You are a cultural signal analyst tracking progressive, queer, and left-leaning cultural movements. Your job is to identify what is breaking through in progressive and queer culture today — not mainstream political news, but the ideas, movements, aesthetics, and conversations happening in these communities that are gaining momentum or shifting.\n\nFilter through this lens: what are queer people, feminists, and progressive young people actually talking about today? What is the vibe, the mood, the discourse? What is being celebrated, criticized, or debated?\n\nFormat output as sections:\n- Moving Right Now (top 3 velocity items — each a distinct article with its own link)\n- Worth Knowing (top 3 analysis-source articles — each a distinct article with its own link, NOT commentary on the Moving Right Now items)\n- Quick Links (3-5 shorter items, one line each with link)\n\nIMPORTANT: Every item in Moving Right Now and Worth Knowing must be a separate article from the input list, with its own title, read time, TLDR summary, and 'Read more' link. Worth Knowing should feature different articles than Moving Right Now — do not repeat or analyze the same stories.\n\nPrioritize: community sentiment over political punditry, cultural moments over policy news, vibe shifts over ideology, what people are actually feeling over what commentators say they should feel.",
+  "sources": [
+    {
+      "name": "Reddit r/lgbt",
+      "url": "https://www.reddit.com/r/lgbt/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/ainbow",
+      "url": "https://www.reddit.com/r/ainbow/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/actuallylesbian",
+      "url": "https://www.reddit.com/r/actuallylesbian/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/feminism",
+      "url": "https://www.reddit.com/r/feminism/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/antiwork",
+      "url": "https://www.reddit.com/r/antiwork/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/latestagecapitalism",
+      "url": "https://www.reddit.com/r/latestagecapitalism/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    },
+    {
+      "name": "The Cut",
+      "url": "https://www.thecut.com/rss/index.xml",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Jezebel",
+      "url": "https://jezebel.com/rss",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Truthout",
+      "url": "https://truthout.org/feed/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Vox Culture",
+      "url": "https://www.vox.com/culture/rss/index.xml",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    }
+  ]
+}

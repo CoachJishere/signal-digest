@@ -1,7 +1,7 @@
 {
   "id": "culture",
-  "name": "Signal: Culture",
-  "subject_template": "Signal: Culture — {date}",
+  "name": "Damelo: Culture",
+  "subject_template": "Damelo: Culture — {date}",
   "schedule": "0 7 * * *",
   "score_threshold": 4,
   "max_full_content_fetches": 5,

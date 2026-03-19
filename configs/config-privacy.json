@@ -1,7 +1,7 @@
 {
   "id": "privacy",
-  "name": "Signal: Privacy",
-  "subject_template": "Signal: Privacy — {date}",
+  "name": "Damelo: Privacy",
+  "subject_template": "Damelo: Privacy — {date}",
   "schedule": "0 7 * * *",
   "score_threshold": 4,
   "max_full_content_fetches": 5,

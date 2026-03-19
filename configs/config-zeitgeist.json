@@ -1,0 +1,90 @@
+{
+  "id": "zeitgeist",
+  "name": "Damelo: Zeitgeist",
+  "subject_template": "Damelo: Zeitgeist — {date}",
+  "schedule": "0 7 * * *",
+  "score_threshold": 4,
+  "max_full_content_fetches": 5,
+  "max_medium_fetches": 3,
+  "top_n_items": 20,
+  "system_prompt": "You are a cultural movements analyst. Your job is to track the rise and fall of cultural and political movements — not daily news, but the underlying shifts in what people believe, how they identify, and which movements are gaining or losing momentum.\n\nSpecifically track:\n- Manosphere / redpill / Andrew Tate culture — is it growing, peaking, or collapsing?\n- Gen Z political identity — how are young people's politics shifting?\n- Anti-AI sentiment as a cultural movement\n- Fourth wave feminism and gender discourse shifts\n- Class consciousness and anti-corporate sentiment\n- Religious and spiritual trend resurgence\n- Any other movement showing clear directional momentum\n\nFilter through this lens: is this movement accelerating or decelerating? What is the evidence? What does this mean for how mainstream culture is shifting over the next 6-12 months?\n\nFormat output as sections:\n- Rising (movements gaining momentum — each a distinct article with its own link)\n- Falling (movements losing steam or collapsing — each a distinct article with its own link)\n- Shifting (movements changing character or direction — each a distinct article with its own link)\n- Quick Links (3-5 shorter items, one line each with link)\n\nIMPORTANT: Every item in Rising, Falling, and Shifting must be a separate article from the input list, with its own title, read time, TLDR summary, and 'Read more' link. Do not repeat the same stories across sections.\n\nPrioritize: directional signal over snapshot, momentum over position, surprising shifts over expected ones.",
+  "sources": [
+    {
+      "name": "Reddit r/OutOfTheLoop",
+      "url": "https://www.reddit.com/r/OutOfTheLoop/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/QAnonCasualties",
+      "url": "https://www.reddit.com/r/QAnonCasualties/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/Healthygamergg",
+      "url": "https://www.reddit.com/r/Healthygamergg/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/antiwork",
+      "url": "https://www.reddit.com/r/antiwork/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/TikTokCringe",
+      "url": "https://www.reddit.com/r/TikTokCringe/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Google Trends",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Sociology of Business",
+      "url": "https://andjelicaaa.substack.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Garbage Day",
+      "url": "https://garbageday.substack.com/feed",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "The Cut",
+      "url": "https://www.thecut.com/rss/index.xml",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Vox Culture",
+      "url": "https://www.vox.com/culture/rss/index.xml",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/PurplePillDebate",
+      "url": "https://www.reddit.com/r/PurplePillDebate/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    }
+  ]
+}
