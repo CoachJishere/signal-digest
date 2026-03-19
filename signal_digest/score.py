@@ -46,6 +46,7 @@ def score_items(items: list[dict], config_id: str) -> list[dict]:
     Mutates items in-place, adding 'score' and 'score_breakdown'.
     """
     seen_topics = _load_seen_topics(config_id)
+    cross_config_topics = _load_cross_config_seen_topics(config_id)
 
     # Pre-compute title tokens for all items
     item_tokens = [(item, title_tokens(item["title"])) for item in items]
@@ -53,7 +54,7 @@ def score_items(items: list[dict], config_id: str) -> list[dict]:
     for item, tokens in item_tokens:
         trust = item["source_trust_weight"]
         freq = _cross_source_frequency(item, tokens, item_tokens)
-        novelty = _novelty_score(tokens, seen_topics)
+        novelty = _novelty_score(tokens, seen_topics, cross_config_topics)
 
         item["score"] = trust + freq + novelty
         item["score_breakdown"] = {
@@ -63,6 +64,10 @@ def score_items(items: list[dict], config_id: str) -> list[dict]:
         }
 
     items.sort(key=lambda x: x["score"], reverse=True)
+
+    # Deduplicate near-identical items within the digest
+    items = _deduplicate_items(items)
+
     return items
 
 
@@ -105,24 +110,87 @@ def _cross_source_frequency(
     return min(count, 3)
 
 
-def _novelty_score(tokens: set[str], seen_topics: list[dict]) -> int:
-    """Score novelty against recently seen topics. Returns 0, 1, or 2."""
+def _novelty_score(
+    tokens: set[str],
+    seen_topics: list[dict],
+    cross_config_topics: list[dict] | None = None,
+) -> int:
+    """Score novelty against recently seen topics. Returns 0, 1, or 2.
+
+    Checks both same-config and cross-config seen topics so that
+    digests running sequentially don't repeat the same lead stories.
+    """
     if not tokens:
         return 1
 
-    for topic in seen_topics:
+    all_topics = seen_topics + (cross_config_topics or [])
+
+    for topic in all_topics:
         seen_tokens = set(topic["tokens"])
         sim = jaccard_similarity(tokens, seen_tokens)
         if sim >= 0.5:
             return 0  # Already covered recently
 
-    for topic in seen_topics:
+    for topic in all_topics:
         seen_tokens = set(topic["tokens"])
         sim = jaccard_similarity(tokens, seen_tokens)
         if sim >= 0.25:
             return 1  # Related but new angle
 
     return 2  # Completely novel
+
+
+def _deduplicate_items(items: list[dict]) -> list[dict]:
+    """Remove near-duplicate items from the scored list.
+
+    Keeps the higher-scoring item when two items have Jaccard
+    similarity >= 0.5 on their title tokens.
+    """
+    kept = []
+    kept_tokens = []
+
+    for item in items:
+        tokens = title_tokens(item["title"])
+        is_dup = False
+        for prev_tokens in kept_tokens:
+            if jaccard_similarity(tokens, prev_tokens) >= 0.5:
+                is_dup = True
+                break
+        if not is_dup:
+            kept.append(item)
+            kept_tokens.append(tokens)
+
+    removed = len(items) - len(kept)
+    if removed:
+        logger.info(f"Deduplicated {removed} near-duplicate items within digest")
+
+    return kept
+
+
+def _load_cross_config_seen_topics(current_config_id: str) -> list[dict]:
+    """Load seen topics from OTHER configs for cross-config dedup.
+
+    Only includes topics from the last 24 hours to avoid over-penalizing
+    topics that appeared in a different config days ago.
+    """
+    all_topics = _load_all_seen_topics()
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    cross_topics = []
+
+    for config_id, data in all_topics.items():
+        if config_id == current_config_id:
+            continue
+        for topic in data.get("topics", []):
+            try:
+                first_seen = datetime.fromisoformat(topic["first_seen"])
+                if first_seen.tzinfo is None:
+                    first_seen = first_seen.replace(tzinfo=timezone.utc)
+                if first_seen >= cutoff:
+                    cross_topics.append(topic)
+            except (ValueError, KeyError):
+                pass
+
+    return cross_topics
 
 
 def _load_seen_topics(config_id: str) -> list[dict]:
