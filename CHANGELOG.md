@@ -5,10 +5,20 @@ All notable changes to Gimme Gimme are documented here.
 ## [Unreleased]
 
 ### Added
+- `config-mysterymaker.json` profile for Reddit monitoring — scans subreddits for murder mystery party discussions to flag engagement opportunities for mysterymaker.party
+- Keyword filter support in ingestion pipeline — configs can specify `keyword_filter` array to pre-filter items before scoring
 - `config-progressive.json` profile for queer and progressive culture signal
 - `config-zeitgeist.json` profile for tracking cultural movement momentum (rising/falling/shifting)
 
 ### Changed
+- All configs moved to M/W/F schedule (`0 7 * * 1,3,5`)
+- Progressive config: broadened sources (added r/union, r/housing, r/immigration) and added topic diversity requirements to system prompt to prevent single-issue dominance
+- PMM config: updated system prompt to target lean PMM teams rather than privacy-specific company
+
+### Fixed
+- Duplicate email deliveries: GitHub Actions cron ran every 30 min but schedule window was 60 min, causing double matches. Changed workflow cron to hourly (`0 * * * *`)
+
+### Changed (prior)
 - Rebranded from Damelo to Gimme Gimme across all files, package directory, workflow, and email templates
 - Renamed project from Signal Digest to Damelo, then to Gimme Gimme
 - All config subject lines and names updated to "Gimme Gimme:" prefix

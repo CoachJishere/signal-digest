@@ -2,7 +2,7 @@ name: Gimme Gimme
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       config:

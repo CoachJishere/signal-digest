@@ -60,6 +60,13 @@ def run_ingestion(config: dict) -> list[dict]:
     items = _deduplicate(items)
     logger.info(f"After dedup: {len(items)} items")
 
+    # Keyword filter (if configured)
+    keyword_filter = config.get("keyword_filter")
+    if keyword_filter:
+        before = len(items)
+        items = _apply_keyword_filter(items, keyword_filter)
+        logger.info(f"After keyword filter: {len(items)} items (filtered {before - len(items)})")
+
     return items
 
 
@@ -124,6 +131,20 @@ def fetch_full_content_for_items(
         f"Full content fetches: {fetch_count} total ({medium_count} from Medium)"
     )
     return fetch_count
+
+
+def _apply_keyword_filter(items: list[dict], keyword_filter: list[str]) -> list[dict]:
+    """Filter items to only those matching at least one keyword/phrase.
+
+    Matches against title + summary, case-insensitive.
+    """
+    patterns = [kw.lower() for kw in keyword_filter]
+    matched = []
+    for item in items:
+        text = f"{item['title']} {item.get('summary', '')}".lower()
+        if any(pattern in text for pattern in patterns):
+            matched.append(item)
+    return matched
 
 
 def _fetch_apify_source(source: dict) -> list[dict]:

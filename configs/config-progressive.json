@@ -2,37 +2,30 @@
   "id": "progressive",
   "name": "Gimme Gimme: Progressive",
   "subject_template": "Gimme Gimme: Progressive — {date}",
-  "schedule": "0 7 * * *",
+  "schedule": "0 7 * * 1,3,5",
   "score_threshold": 4,
   "max_full_content_fetches": 5,
   "max_medium_fetches": 3,
   "top_n_items": 20,
-  "system_prompt": "You are a cultural signal analyst tracking progressive, queer, and left-leaning cultural movements. Your job is to identify what is breaking through in progressive and queer culture today — not mainstream political news, but the ideas, movements, aesthetics, and conversations happening in these communities that are gaining momentum or shifting.\n\nFilter through this lens: what are queer people, feminists, and progressive young people actually talking about today? What is the vibe, the mood, the discourse? What is being celebrated, criticized, or debated?\n\nFormat output as sections:\n- Moving Right Now (top 3 velocity items — each a distinct article with its own link)\n- Worth Knowing (top 3 analysis-source articles — each a distinct article with its own link, NOT commentary on the Moving Right Now items)\n- Quick Links (3-5 shorter items, one line each with link)\n\nIMPORTANT: Every item in Moving Right Now and Worth Knowing must be a separate article from the input list, with its own title, read time, TLDR summary, and 'Read more' link. Worth Knowing should feature different articles than Moving Right Now — do not repeat or analyze the same stories.\n\nPrioritize: community sentiment over political punditry, cultural moments over policy news, vibe shifts over ideology, what people are actually feeling over what commentators say they should feel.",
+  "system_prompt": "You are a progressive movement analyst tracking the full spectrum of progressive politics and culture. Your job is to identify what is breaking through across progressive communities today — not mainstream horse-race politics, but the movements, organizing efforts, policy fights, cultural shifts, and grassroots energy happening across the progressive left.\n\nCover the full progressive landscape: climate and environmental justice, racial justice, labor and economic justice, LGBTQ+ rights, immigration, healthcare, housing, criminal justice reform, reproductive rights, anti-fascism, Indigenous sovereignty, disability justice, and economic inequality.\n\nCRITICAL: Ensure topic diversity across the digest. No single issue (e.g., trans rights, climate, labor) should dominate. Each section should cover different issue areas. If multiple items cover the same topic, pick the strongest one and use the remaining slots for other progressive issues. The goal is a panoramic view of the progressive landscape, not deep coverage of one fight.\n\nFilter through this lens: what are progressive communities energized about today? Where is momentum building? What injustice is breaking into broader awareness? What policy fight or grassroots action deserves attention?\n\nFormat output as sections:\n- Moving Right Now (top 3 velocity items — each a distinct article with its own link, each covering a DIFFERENT issue area)\n- Worth Knowing (top 3 analysis-source articles — each a distinct article with its own link, NOT commentary on the Moving Right Now items, covering DIFFERENT topics from Moving Right Now)\n- Quick Links (3-5 shorter items, one line each with link)\n\nIMPORTANT: Every item in Moving Right Now and Worth Knowing must be a separate article from the input list, with its own title, read time, TLDR summary, and 'Read more' link. Worth Knowing should feature different articles than Moving Right Now — do not repeat or analyze the same stories.\n\nPrioritize: topic diversity across the digest, grassroots momentum over institutional politics, intersectional stories over single-issue coverage, underreported fights over already-viral stories, what people are organizing around over what pundits are debating.",
   "sources": [
     {
-      "name": "Reddit r/lgbt",
-      "url": "https://www.reddit.com/r/lgbt/top/.rss?t=day",
+      "name": "Reddit r/progressive",
+      "url": "https://www.reddit.com/r/progressive/top/.rss?t=day",
       "signal_type": "velocity",
       "trust_weight": 3,
       "fetch_full_content": false
     },
     {
-      "name": "Reddit r/ainbow",
-      "url": "https://www.reddit.com/r/ainbow/top/.rss?t=day",
+      "name": "Reddit r/lgbt",
+      "url": "https://www.reddit.com/r/lgbt/top/.rss?t=day",
       "signal_type": "velocity",
       "trust_weight": 2,
       "fetch_full_content": false
     },
     {
-      "name": "Reddit r/actuallylesbian",
-      "url": "https://www.reddit.com/r/actuallylesbian/top/.rss?t=day",
-      "signal_type": "velocity",
-      "trust_weight": 2,
-      "fetch_full_content": false
-    },
-    {
-      "name": "Reddit r/feminism",
-      "url": "https://www.reddit.com/r/feminism/top/.rss?t=day",
+      "name": "Reddit r/climate",
+      "url": "https://www.reddit.com/r/climate/top/.rss?t=day",
       "signal_type": "velocity",
       "trust_weight": 2,
       "fetch_full_content": false
@@ -45,24 +38,59 @@
       "fetch_full_content": false
     },
     {
-      "name": "Reddit r/latestagecapitalism",
-      "url": "https://www.reddit.com/r/latestagecapitalism/top/.rss?t=day",
+      "name": "Reddit r/WhitePeopleTwitter",
+      "url": "https://www.reddit.com/r/WhitePeopleTwitter/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/MarchAgainstNazis",
+      "url": "https://www.reddit.com/r/MarchAgainstNazis/top/.rss?t=day",
       "signal_type": "velocity",
       "trust_weight": 1,
       "fetch_full_content": false
     },
     {
-      "name": "The Cut",
-      "url": "https://www.thecut.com/rss/index.xml",
+      "name": "Reddit r/feminism",
+      "url": "https://www.reddit.com/r/feminism/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/union",
+      "url": "https://www.reddit.com/r/union/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/housing",
+      "url": "https://www.reddit.com/r/housing/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/immigration",
+      "url": "https://www.reddit.com/r/immigration/top/.rss?t=day",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "The Intercept",
+      "url": "https://theintercept.com/feed/?rss",
       "signal_type": "analysis",
       "trust_weight": 3,
       "fetch_full_content": false
     },
     {
-      "name": "Jezebel",
-      "url": "https://jezebel.com/rss",
+      "name": "Mother Jones",
+      "url": "https://www.motherjones.com/feed/",
       "signal_type": "analysis",
-      "trust_weight": 2,
+      "trust_weight": 3,
       "fetch_full_content": false
     },
     {
@@ -73,8 +101,29 @@
       "fetch_full_content": false
     },
     {
-      "name": "Vox Culture",
-      "url": "https://www.vox.com/culture/rss/index.xml",
+      "name": "Grist",
+      "url": "https://grist.org/feed/",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "ProPublica",
+      "url": "https://feeds.propublica.org/propublica/main",
+      "signal_type": "analysis",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Vox Policy",
+      "url": "https://www.vox.com/policy/rss/index.xml",
+      "signal_type": "analysis",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Democracy Now",
+      "url": "https://www.democracynow.org/democracynow.rss",
       "signal_type": "analysis",
       "trust_weight": 2,
       "fetch_full_content": false

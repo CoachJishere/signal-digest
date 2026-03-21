@@ -6,6 +6,7 @@
     {"file": "config-productmarketing.json", "active": true},
     {"file": "config-mainstream.json", "active": true},
     {"file": "config-progressive.json", "active": true},
-    {"file": "config-zeitgeist.json", "active": true}
+    {"file": "config-zeitgeist.json", "active": true},
+    {"file": "config-mysterymaker.json", "active": true}
   ]
 }

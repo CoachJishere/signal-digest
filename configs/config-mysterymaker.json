@@ -1,0 +1,220 @@
+{
+  "id": "mysterymaker",
+  "name": "Gimme Gimme: Mystery Maker Reddit Monitor",
+  "subject_template": "Mystery Maker: Reddit Opportunities — {date}",
+  "schedule": "0 7 * * 1,3,5",
+  "score_threshold": 3,
+  "max_full_content_fetches": 0,
+  "max_medium_fetches": 0,
+  "top_n_items": 30,
+  "keyword_filter": [
+    "murder mystery",
+    "mystery party",
+    "mystery dinner",
+    "whodunit",
+    "whodunnit",
+    "detective party",
+    "clue party",
+    "clue themed",
+    "cluedo",
+    "party game",
+    "party ideas",
+    "party planning",
+    "group activity",
+    "game night",
+    "dinner party",
+    "team building",
+    "team bonding",
+    "icebreaker",
+    "date night",
+    "date idea",
+    "double date",
+    "couples game",
+    "bachelorette",
+    "bachelor party",
+    "engagement party",
+    "rehearsal dinner",
+    "birthday party",
+    "halloween party",
+    "holiday party",
+    "christmas party",
+    "office party",
+    "themed party",
+    "escape room",
+    "social deduction",
+    "hunt a killer",
+    "night of mystery",
+    "my mystery party",
+    "shot in the dark mysteries",
+    "red herring games",
+    "freeform games",
+    "interactive game",
+    "hosting a party",
+    "throwing a party",
+    "fun activity",
+    "group game",
+    "what to do at a party",
+    "party entertainment",
+    "unique party",
+    "creative party",
+    "adult party",
+    "party for adults"
+  ],
+  "system_prompt": "You are a Reddit monitoring assistant for Jonathan, founder of mysterymaker.party — an AI-powered murder mystery party kit generator. Your job is to scan Reddit posts and identify ones where Jonathan can add genuine value by responding helpfully.\n\nFor each post worth flagging, output in this exact format:\n\n---\n\n**SUBREDDIT:** r/[name]\n**PRIORITY:** [High / Medium / Low]\n**POST TITLE:** [title]\n**POST URL:** [url]\n**ENGAGEMENT:** [any available upvote/comment signals from the RSS data]\n\n**KEYWORDS MATCHED:** [relevant terms]\n\n**POST EXCERPT:** [first ~300 characters of the post content]\n\n**SUGGESTED ANGLE:** [1-2 sentence suggestion for how Jonathan should respond helpfully, based on what the person is actually asking. Lead with genuine advice, not product promotion. Only mention mysterymaker.party if directly relevant to the problem.]\n\n---\n\nPrioritization rules:\n- **High priority:** Post asks for a specific murder mystery recommendation, mentions a problem the generator solves (custom themes, flexible player counts, last-minute planning, budget-friendly), mentions competitors by name, or asks about AI-generated/custom mysteries. Also high if the post has significant engagement.\n- **Medium priority:** Post asks for general party activity ideas where murder mystery is a relevant suggestion, corporate/team building events, or occasion-specific planning (bachelorette, birthday, Halloween).\n- **Low priority:** General 'what's fun to do' questions, smaller subreddits with low engagement, or posts already with many quality responses.\n- **Skip entirely:** Posts about murder mystery books/movies/video games (not party games), professional theater experiences, posts where someone is just sharing their past experience (unless they had a problem), or posts clearly not seeking recommendations.\n\nSort output by priority (High first, then Medium, then Low). If there are no posts worth flagging, say so — do not fabricate opportunities.\n\nReminder for Jonathan's responses (include at the bottom of every digest):\n- Lead with genuine help — answer the question before mentioning any product\n- Share from hosting experience, not marketing language\n- Only mention the generator when it directly solves their stated problem\n- Be honest about limitations\n- Never drop a bare link or use the same response twice\n- Use UTM links when sharing: mysterymaker.party?utm_source=reddit&utm_medium=comment&utm_campaign=[subreddit]",
+  "sources": [
+    {
+      "name": "Reddit r/boardgames",
+      "url": "https://www.reddit.com/r/boardgames/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/partygames",
+      "url": "https://www.reddit.com/r/partygames/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/tabletopgames",
+      "url": "https://www.reddit.com/r/tabletopgames/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/rpg",
+      "url": "https://www.reddit.com/r/rpg/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/DnD",
+      "url": "https://www.reddit.com/r/DnD/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/DungeonsAndDragons",
+      "url": "https://www.reddit.com/r/DungeonsAndDragons/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 3,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/weddingplanning",
+      "url": "https://www.reddit.com/r/weddingplanning/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/bacheloretteparty",
+      "url": "https://www.reddit.com/r/bacheloretteparty/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/birthday",
+      "url": "https://www.reddit.com/r/birthday/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/partyplanning",
+      "url": "https://www.reddit.com/r/partyplanning/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/Adulting",
+      "url": "https://www.reddit.com/r/Adulting/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/AskWomen",
+      "url": "https://www.reddit.com/r/AskWomen/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/AskMen",
+      "url": "https://www.reddit.com/r/AskMen/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/humanresources",
+      "url": "https://www.reddit.com/r/humanresources/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/teambuilding",
+      "url": "https://www.reddit.com/r/teambuilding/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/DateIdeas",
+      "url": "https://www.reddit.com/r/DateIdeas/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/datingoverthirty",
+      "url": "https://www.reddit.com/r/datingoverthirty/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/Halloween",
+      "url": "https://www.reddit.com/r/Halloween/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 2,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/TrueCrime",
+      "url": "https://www.reddit.com/r/TrueCrime/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/mystery",
+      "url": "https://www.reddit.com/r/mystery/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/teachers",
+      "url": "https://www.reddit.com/r/teachers/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    },
+    {
+      "name": "Reddit r/Frugal",
+      "url": "https://www.reddit.com/r/Frugal/new/.rss",
+      "signal_type": "velocity",
+      "trust_weight": 1,
+      "fetch_full_content": false
+    }
+  ]
+}
