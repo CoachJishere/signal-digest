@@ -1883,6 +1883,913 @@
         ],
         "title": "Stop Paying the Token Tax: What llama.cpp is and Why Every AI Engineer Needs to Understand It",
         "first_seen": "2026-03-19T07:31:57.886610+00:00"
+      },
+      {
+        "tokens": [
+          "onto",
+          "map",
+          "parallels",
+          "surprisingly",
+          "adhd",
+          "six",
+          "cognitive",
+          "failure",
+          "research",
+          "independent",
+          "science",
+          "well",
+          "modes",
+          "llm"
+        ],
+        "title": "LLM failure modes map surprisingly well onto ADHD cognitive science. Six parallels from independent research.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "price",
+          "today",
+          "gold"
+        ],
+        "title": "gold price today",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "engineers",
+          "end",
+          "back",
+          "s16",
+          "hiring",
+          "gogograndparent"
+        ],
+        "title": "GoGoGrandparent (YC S16) is hiring Back end Engineers",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "collaboration",
+          "bullshit"
+        ],
+        "title": "\"Collaboration\" Is Bullshit",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "circuits",
+          "tranformer",
+          "intuitions"
+        ],
+        "title": "Intuitions for Tranformer Circuits",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "payment",
+          "american",
+          "network",
+          "migrating",
+          "express",
+          "twice"
+        ],
+        "title": "Migrating the American Express Payment Network, Twice",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "coding",
+          "spam",
+          "vibe"
+        ],
+        "title": "They're Vibe-Coding Spam Now",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "remain",
+          "information",
+          "without",
+          "grapheneos",
+          "personal",
+          "usable",
+          "requiring",
+          "anyone"
+        ],
+        "title": "GrapheneOS will remain usable by anyone without requiring personal information",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "standard",
+          "look",
+          "rollercoaster",
+          "under",
+          "hood",
+          "tycoon",
+          "optimization",
+          "gold"
+        ],
+        "title": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "rss",
+          "downloading",
+          "article",
+          "gamer",
+          "keeps",
+          "readers",
+          "37mb",
+          "recommends"
+        ],
+        "title": "PC Gamer recommends RSS readers in a 37mb article that just keeps downloading",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "doing",
+          "proof",
+          "themselves",
+          "workers",
+          "young"
+        ],
+        "title": "What Young Workers Are Doing to AI-Proof Themselves",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "love",
+          "nixos"
+        ],
+        "title": "Why I love NixOS",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "systems",
+          "years",
+          "running",
+          "group",
+          "microsoft",
+          "reading",
+          "five"
+        ],
+        "title": "Five Years of Running a Systems Reading Group at Microsoft",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "coming",
+          "linux",
+          "maui"
+        ],
+        "title": "MAUI Is Coming to Linux",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "job"
+        ],
+        "title": "You are not your job",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "version",
+          "control",
+          "future"
+        ],
+        "title": "The future of version control",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "rtl",
+          "3dfx",
+          "tools",
+          "fpga",
+          "voodoo",
+          "modern",
+          "building"
+        ],
+        "title": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "knowledge",
+          "never",
+          "goes",
+          "offline",
+          "nomad",
+          "project"
+        ],
+        "title": "Project Nomad \u2013 Knowledge That Never Goes Offline",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "common",
+          "system",
+          "diagrams",
+          "architecture",
+          "creating",
+          "mistakes",
+          "avoid"
+        ],
+        "title": "More common mistakes to avoid when creating system architecture diagrams",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "parameter",
+          "model",
+          "running",
+          "397b",
+          "flash",
+          "laptop",
+          "moe"
+        ],
+        "title": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "greatly",
+          "exaggerated",
+          "reports",
+          "death",
+          "code"
+        ],
+        "title": "Reports of code's death are greatly exaggerated",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "mess",
+          "native",
+          "app",
+          "windows",
+          "development"
+        ],
+        "title": "Windows native app development is a mess",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "palantir",
+          "pentagon",
+          "says",
+          "system",
+          "core",
+          "memo",
+          "military",
+          "adopt"
+        ],
+        "title": "Pentagon to adopt Palantir AI as core US military system, memo says",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "working",
+          "tired",
+          "any",
+          "time",
+          "job",
+          "hours",
+          "soon",
+          "glad",
+          "take"
+        ],
+        "title": "Tired of working 8 hours. Is just me or IA could take my job any time soon and I would be glad.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "deployed",
+          "fish",
+          "autonomous",
+          "robot",
+          "filter",
+          "coral",
+          "oceans",
+          "protect",
+          "being",
+          "microplastics",
+          "reefs"
+        ],
+        "title": "New autonomous robot fish are being deployed to filter microplastics from our oceans and protect coral reefs.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "consolidated",
+          "chatbot",
+          "california",
+          "against",
+          "litigation",
+          "harm",
+          "suicide",
+          "cases",
+          "big",
+          "openai",
+          "dozen",
+          "chatgpt"
+        ],
+        "title": "Over a dozen chatbot harm & suicide cases in California against OpenAI / ChatGPT have been consolidated into one big litigation",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "director",
+          "winner",
+          "doc",
+          "daniel",
+          "roher",
+          "became",
+          "oscar",
+          "apocaloptimist",
+          "thursday",
+          "pre",
+          "tickets",
+          "nyc",
+          "200",
+          "free",
+          "screening",
+          "giveaway",
+          "special",
+          "reddit",
+          "navalny"
+        ],
+        "title": "Reddit Giveaway - 200+ Free Tickets to a Special Pre-Screening of 'The AI Doc: Or How I Became an Apocaloptimist' on Thursday 3/26 in NYC & LA from Oscar-Winner Director Daniel Roher ('Navalny')",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "inspired",
+          "feelings",
+          "neuronal",
+          "bibites",
+          "share",
+          "brain",
+          "personal",
+          "modular",
+          "driven",
+          "memories",
+          "adding"
+        ],
+        "title": "Adding a modular ai-driven neuronal brain (Bibites inspired) to F.R.A.N.K so he can share his personal personal feelings and memories.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "turned",
+          "while",
+          "waste",
+          "engineering",
+          "cutting",
+          "team",
+          "context",
+          "codex",
+          "token",
+          "whole",
+          "dev"
+        ],
+        "title": "How context engineering turned Codex into my whole dev team \u2014 while cutting token waste",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "alex",
+          "chad",
+          "silverstein",
+          "magazine",
+          "deepwisdom",
+          "chenglin",
+          "intelligence",
+          "mar",
+          "artificial",
+          "authority",
+          "2026",
+          "future"
+        ],
+        "title": "Alex Chenglin Wu of DeepWisdom On The Future Of Artificial Intelligence | by Chad Silverstein | Authority Magazine | Mar, 2026",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "prepared",
+          "thoughts",
+          "comes",
+          "next",
+          "future"
+        ],
+        "title": "You are not prepared for what comes next\u2026 Thoughts on our AI future",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "learning",
+          "academic",
+          "machine",
+          "killed",
+          "effectively",
+          "research",
+          "2026",
+          "off",
+          "industry"
+        ],
+        "title": "[D] Has industry effectively killed off academic machine learning research in 2026?",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "matching",
+          "lecture",
+          "mit",
+          "flow",
+          "2026",
+          "diffusion"
+        ],
+        "title": "[N] MIT Flow Matching and Diffusion Lecture 2026",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "series",
+          "anomaly",
+          "learning",
+          "time",
+          "paper",
+          "representation",
+          "contrastive",
+          "nonsense",
+          "attention",
+          "dual",
+          "dcdetector",
+          "detection"
+        ],
+        "title": "[R] Is this paper Nonsense ? [DCdetector: Dual Attention Contrastive Representation Learning for Time Series Anomaly Detection]",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "software",
+          "designing",
+          "hardware",
+          "chip"
+        ],
+        "title": "[R] Designing AI Chip Software and Hardware",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "somehow",
+          "proceedings",
+          "paper",
+          "accepted",
+          "workshop",
+          "never",
+          "made",
+          "iccv25"
+        ],
+        "title": "[D] Accepted ICCV25 workshop paper somehow never made it into proceedings",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "visualizing",
+          "architecture",
+          "projection",
+          "data",
+          "flow",
+          "subspace"
+        ],
+        "title": "[P] Visualizing LM's Architecture and data flow with Q subspace projection",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "entirely",
+          "sql",
+          "optimization",
+          "training",
+          "classifier",
+          "iterative"
+        ],
+        "title": "[D] Training a classifier entirely in SQL (no iterative optimization)",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "modeling",
+          "escalation",
+          "discourse",
+          "machine",
+          "labeling",
+          "online",
+          "approach",
+          "state",
+          "dataset"
+        ],
+        "title": "[D] Modeling online discourse escalation as a state machine (dataset + labeling approach)",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "lacking",
+          "targeting",
+          "arc",
+          "majority",
+          "pro",
+          "proteins",
+          "introduces",
+          "institute",
+          "annotations",
+          "experimental",
+          "vast",
+          "bioreason"
+        ],
+        "title": "Arc Institute introduces BioReason-Pro, targeting the vast majority of proteins lacking experimental annotations",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "rtx",
+          "294",
+          "3060",
+          "323",
+          "5050"
+        ],
+        "title": "[D] rtx 3060 323$ vs rtx 5050 294$",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "image",
+          "never",
+          "viral",
+          "asked",
+          "chatgpt"
+        ],
+        "title": "Asked ChatGPT for an Image that Will Never Go Viral",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "comment"
+        ],
+        "title": "no comment",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "countries",
+          "world",
+          "look",
+          "third",
+          "asked",
+          "gaming",
+          "chatgpt"
+        ],
+        "title": "I asked ChatGPT how does gaming in third world countries look like.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "calls",
+          "needs",
+          "humans",
+          "branch",
+          "degrasse",
+          "lethal",
+          "treaty",
+          "neil",
+          "perfect",
+          "international",
+          "nobody",
+          "agree",
+          "tyson",
+          "something",
+          "superintelligence",
+          "everyone",
+          "treaties",
+          "ban",
+          "build",
+          "best"
+        ],
+        "title": "Neil DeGrasse Tyson calls for an international treaty to ban superintelligence: \"That branch of AI is lethal. We've got do something about that. Nobody should build it. And everyone needs to agree to that by treaty. Treaties are not perfect, but they are the best we have as humans.\"",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "fancy",
+          "kinda",
+          "actually",
+          "cursed",
+          "very"
+        ],
+        "title": "Not very fancy, actually kinda cursed",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "something",
+          "guess",
+          "well",
+          "learn",
+          "everyday"
+        ],
+        "title": "Well i guess you learn something new everyday",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "bot",
+          "love",
+          "hype",
+          "claude",
+          "great",
+          "chatgpt"
+        ],
+        "title": "ChatGPT is great but all the love for Claude is not bot hype",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "chat",
+          "personal",
+          "gpt",
+          "else",
+          "anyone",
+          "hate"
+        ],
+        "title": "Anyone else hate their personal chat GPT?",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "chatting",
+          "gpt",
+          "sounds",
+          "sometimes"
+        ],
+        "title": "Sounds like chatting with GPT sometimes eh",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "touche",
+          "sir"
+        ],
+        "title": "Touche Sir...",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "inspired",
+          "post",
+          "eating",
+          "spaghetti",
+          "smith"
+        ],
+        "title": "Inspired by the Will Smith eating spaghetti post",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "while",
+          "image",
+          "generation",
+          "censoring",
+          "itself",
+          "chatgpt"
+        ],
+        "title": "ChatGPT censoring itself while image generation",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "better",
+          "expected"
+        ],
+        "title": "Better than I expected.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "coming",
+          "onion",
+          "clutch"
+        ],
+        "title": "The Onion Coming in Clutch",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "feature",
+          "model",
+          "another",
+          "regenerating",
+          "dust",
+          "bites",
+          "switching"
+        ],
+        "title": "Another feature bites the dust: No more model switching when regenerating, and...",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "point",
+          "tool",
+          "stop",
+          "companion",
+          "being",
+          "becoming",
+          "start",
+          "chatgpt"
+        ],
+        "title": "At what point does ChatGPT stop being a tool and start becoming a companion?",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "bad",
+          "damn"
+        ],
+        "title": "Damn, so bad",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "interesting"
+        ],
+        "title": "Interesting \ud83e\udd28",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "most",
+          "analyze",
+          "way",
+          "comprehensive",
+          "organize",
+          "chatlogs",
+          "best"
+        ],
+        "title": "What is the best most comprehensive way to analyze and organize all of my chatlogs?",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "showing",
+          "create",
+          "feel",
+          "image"
+        ],
+        "title": "Create an image showing how you feel about me",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "major",
+          "attempt",
+          "deliberate",
+          "service",
+          "services",
+          "rule"
+        ],
+        "title": "The deliberate attempt of major AI services to not be the one service to rule them all",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "creation",
+          "test",
+          "image"
+        ],
+        "title": "Image Creation Test",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "double",
+          "plans",
+          "workforce",
+          "employees",
+          "openai",
+          "000"
+        ],
+        "title": "OpenAI Plans to Double Workforce to 8,000 Employees",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "crisis",
+          "5000",
+          "enterprises",
+          "crore",
+          "quiet",
+          "india",
+          "1000"
+        ],
+        "title": "The Quiet Crisis in India\u2019s \u20b91000-5000 Crore Enterprises",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "saber",
+          "confiar",
+          "salazar",
+          "que",
+          "tata",
+          "estafa",
+          "debes",
+          "realmente",
+          "antes"
+        ],
+        "title": "\u00bfTata Salazar es estafa? Lo que realmente debes saber antes de confiar",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "layer",
+          "deepseek",
+          "everyone",
+          "made",
+          "beat",
+          "chatgpt"
+        ],
+        "title": "DeepSeek Beat ChatGPT. One Layer Made It Beat Everyone.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "whatsapp",
+          "points",
+          "here",
+          "bullet",
+          "turn",
+          "messages",
+          "300",
+          "seconds"
+        ],
+        "title": "Turn 300 WhatsApp Messages Into 5 Bullet Points in Seconds \u2014 Here\u2019s How",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "here",
+          "scores",
+          "app",
+          "eval",
+          "rag",
+          "hallucinating",
+          "fix",
+          "every",
+          "still"
+        ],
+        "title": "Your RAG App Scores 91% on Every Eval. Here\u2019s Why It\u2019s Still Hallucinating and How to Fix It.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "here",
+          "tool",
+          "gemini",
+          "actually",
+          "differs",
+          "same",
+          "claude",
+          "chatgpt"
+        ],
+        "title": "ChatGPT, Claude, and Gemini Are Not the Same Tool. Here Is What Actually Differs.",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "governance",
+          "engineering",
+          "requirement",
+          "core",
+          "discipline",
+          "becoming",
+          "legal"
+        ],
+        "title": "Why AI Governance Is Becoming a Core Engineering Discipline (Not Just a Legal Requirement)",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
+      },
+      {
+        "tokens": [
+          "march",
+          "haves",
+          "must",
+          "claude",
+          "code",
+          "2026"
+        ],
+        "title": "Claude Code Must-Haves\u200a\u2014\u200aMarch 2026",
+        "first_seen": "2026-03-23T07:17:16.706342+00:00"
       }
     ]
   },
@@ -2647,6 +3554,363 @@
         ],
         "title": "DuckDuckGo's New Pro Plan: 2x AI Limits, More Advanced Models",
         "first_seen": "2026-03-19T07:32:30.857518+00:00"
+      },
+      {
+        "tokens": [
+          "until",
+          "surveillance",
+          "feeding",
+          "kept",
+          "convenience",
+          "normal",
+          "felt"
+        ],
+        "title": "they kept feeding us convenience until surveillance felt normal",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "don",
+          "want",
+          "subreddits",
+          "bots",
+          "profile",
+          "keep",
+          "banned",
+          "post",
+          "visible",
+          "auto",
+          "ban",
+          "random",
+          "block",
+          "being",
+          "history"
+        ],
+        "title": "You can block the bots that auto-ban you from subreddits if you don't like being banned from random subreddits but want to keep your profile and post history visible.",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "filing",
+          "slips",
+          "hb5066",
+          "continue",
+          "illinois",
+          "please",
+          "live",
+          "witness",
+          "hb5511",
+          "opposition"
+        ],
+        "title": "If you live in Illinois, please continue filing witness slips in opposition of HB5511 and HB5066!",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "privacy",
+          "invasive",
+          "agenda",
+          "understanding",
+          "people",
+          "pushing",
+          "thinking",
+          "behind"
+        ],
+        "title": "Understanding the thinking behind people pushing privacy-invasive agenda",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "method",
+          "discord",
+          "age",
+          "bypasses",
+          "verification"
+        ],
+        "title": "Discord Age Verification Bypasses method?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "elaboration"
+        ],
+        "title": "Elaboration",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "associated",
+          "device",
+          "delete",
+          "app",
+          "data",
+          "any"
+        ],
+        "title": "Can I delete any data associated to my device from an app?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "sites",
+          "emails",
+          "visiting",
+          "once",
+          "getting"
+        ],
+        "title": "Getting emails from sites after visiting once",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "narxcare"
+        ],
+        "title": "NarxCare",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "opt",
+          "removal",
+          "manual",
+          "automated",
+          "2026"
+        ],
+        "title": "Automated removal vs. manual opt-out in 2026?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "google",
+          "firebase",
+          "entirely",
+          "sensitive",
+          "data",
+          "acceptable",
+          "avoid",
+          "storing",
+          "user"
+        ],
+        "title": "Is Firebase acceptable for storing sensitive user data, or should I avoid Google entirely?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "cloud",
+          "trust",
+          "solution"
+        ],
+        "title": "Not trust, no cloud solution ?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "account",
+          "steam",
+          "creating",
+          "games",
+          "linking",
+          "epic"
+        ],
+        "title": "Creating an Epic Games account and linking to Steam",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "dread",
+          "age",
+          "websites",
+          "pitch",
+          "verification",
+          "able",
+          "escape"
+        ],
+        "title": "Will websites like Dread and Pitch be able to escape age verification websites?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "moving",
+          "account",
+          "possible",
+          "back",
+          "regrettable",
+          "facebook",
+          "private",
+          "keeping",
+          "suggestions"
+        ],
+        "title": "Moving back to Facebook/ regrettable. Suggestions on keeping my account as private as possible?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "end",
+          "bot",
+          "verificaton",
+          "automod",
+          "pandemic",
+          "age"
+        ],
+        "title": "Will age verificaton end the automod bot pandemic?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "implemented",
+          "exactly",
+          "age",
+          "being",
+          "verification"
+        ],
+        "title": "OS age verification. How is it being implemented exactly?",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "happened",
+          "today"
+        ],
+        "title": "Happened to me today",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "engines",
+          "search"
+        ],
+        "title": "Search engines",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "wiper",
+          "canisterworm",
+          "teeth",
+          "teampcp",
+          "targets",
+          "kubernetes",
+          "iran",
+          "gets"
+        ],
+        "title": "CanisterWorm Gets Teeth: TeamPCP's Kubernetes Wiper Targets Iran",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "built",
+          "immich",
+          "ditching",
+          "own",
+          "photo",
+          "private",
+          "photos",
+          "cloud",
+          "google",
+          "1tb"
+        ],
+        "title": "Ditching Google Photos: How I Built My Own 1TB Private Photo Cloud with Immich",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "privacy",
+          "language",
+          "everyone",
+          "barrier",
+          "breaking"
+        ],
+        "title": "Privacy for Everyone: Breaking the Language Barrier",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "stop",
+          "websites",
+          "random",
+          "uploading",
+          "files"
+        ],
+        "title": "Stop Uploading Your Files to Random Websites",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "websites",
+          "track",
+          "cookies"
+        ],
+        "title": "How Websites Track You (It\u2019s Not Just Cookies)",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "api",
+          "device",
+          "keys",
+          "built",
+          "brain",
+          "250",
+          "edge",
+          "private",
+          "cloud",
+          "compromise"
+        ],
+        "title": "I Built a Private AI Brain on a $250 Edge Device \u2014 No Cloud, No API Keys, No Compromise",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "apple",
+          "iphone",
+          "million",
+          "handed",
+          "users",
+          "asked",
+          "google",
+          "japan",
+          "nobody"
+        ],
+        "title": "Apple Just Handed Japan\u2019s 70 Million iPhone Users to Google\u2019s AI \u2014 And Nobody Asked",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "suites",
+          "authentication",
+          "clients",
+          "audit",
+          "conflicts",
+          "between",
+          "mobile",
+          "security",
+          "gaming",
+          "2026",
+          "resolving"
+        ],
+        "title": "2026 Mobile Audit: Resolving Authentication Conflicts Between Security Suites and Gaming Clients",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "rational",
+          "philosophy",
+          "privacy"
+        ],
+        "title": "The Philosophy of Rational Privacy",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
+      },
+      {
+        "tokens": [
+          "blockchain",
+          "government",
+          "women",
+          "funded",
+          "project",
+          "abandoned",
+          "shelter"
+        ],
+        "title": "The Blockchain Project That Funded a Women's Shelter the Government Abandoned",
+        "first_seen": "2026-03-23T07:17:59.699599+00:00"
       }
     ]
   },
@@ -5150,6 +6414,2727 @@
         ],
         "title": "Wands for 4th princess birthday party",
         "first_seen": "2026-03-21T15:26:40.508378+00:00"
+      },
+      {
+        "tokens": [
+          "most",
+          "hot",
+          "streak",
+          "table",
+          "minutes",
+          "chaotic"
+        ],
+        "title": "Hot Streak is the most chaotic 20 minutes you can have at a table",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "case",
+          "cluedo",
+          "web",
+          "app",
+          "solves",
+          "accompaniment"
+        ],
+        "title": "Cluedo accompaniment web app that solves the case",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "mystery",
+          "party",
+          "vampire",
+          "murder"
+        ],
+        "title": "Vampire murder mystery party?",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "cleaned",
+          "appreciate",
+          "rules",
+          "gibberers",
+          "feedback"
+        ],
+        "title": "Gibberers - Cleaned up rules. Appreciate feedback!",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "games",
+          "children",
+          "betting"
+        ],
+        "title": "Children and betting games",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "happened",
+          "here",
+          "party",
+          "college",
+          "tested",
+          "people",
+          "took",
+          "1000",
+          "game",
+          "campuses"
+        ],
+        "title": "I took my party game to college campuses and tested it with 1000+ people, here\u2019s what happened",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "released",
+          "major",
+          "iphone",
+          "spy",
+          "update",
+          "party",
+          "game",
+          "veo"
+        ],
+        "title": "Just released VEO 2.0 \u2014 a major update to my iPhone I Spy party game",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "party",
+          "bachelor",
+          "shot"
+        ],
+        "title": "Bachelor Party One-Shot",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "want",
+          "parents",
+          "rehab",
+          "brother",
+          "party",
+          "brothers",
+          "other",
+          "recovering",
+          "invite",
+          "bachelor",
+          "because",
+          "alcoholic",
+          "invited",
+          "fiance"
+        ],
+        "title": "My parents want my fiance to invite my recovering alcoholic brother who just got out of rehab to his bachelor party because my other brothers are invited.",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "27th",
+          "party",
+          "years",
+          "april",
+          "sober",
+          "birthday"
+        ],
+        "title": "27th Birthday and 5 Years Sober Party in April",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "idea",
+          "first",
+          "date"
+        ],
+        "title": "First date idea?",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "anniversary",
+          "3rd",
+          "date",
+          "ideas"
+        ],
+        "title": "3rd anniversary date ideas?",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "movie",
+          "rut",
+          "trying",
+          "dinner",
+          "past",
+          "move"
+        ],
+        "title": "Trying to move past the \"dinner and a movie\" rut",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      },
+      {
+        "tokens": [
+          "need",
+          "plan",
+          "birthday",
+          "mom",
+          "help"
+        ],
+        "title": "Need help to plan mom's birthday.",
+        "first_seen": "2026-03-23T07:20:06.650791+00:00"
+      }
+    ]
+  },
+  "productmarketing": {
+    "topics": [
+      {
+        "tokens": [
+          "influence",
+          "most",
+          "fain",
+          "important",
+          "webflow",
+          "skill",
+          "art",
+          "replace",
+          "slack",
+          "single",
+          "jessica"
+        ],
+        "title": "The art of influence: The single most important skill that AI can\u2019t replace | Jessica Fain (Webflow, ex-Slack)",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "doing",
+          "marketing",
+          "actually",
+          "peers",
+          "product",
+          "2026",
+          "state"
+        ],
+        "title": "The State of Product Marketing in 2026: What Your Peers Are Actually Doing",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "built",
+          "dinodex",
+          "code",
+          "jurassic",
+          "mon",
+          "park",
+          "minutes",
+          "pok"
+        ],
+        "title": "From Pok\u00e9mon to Jurassic Park: I Built a DinoDex in Minutes (No Code)",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "legacy",
+          "systems",
+          "against",
+          "weapon",
+          "secret",
+          "2026",
+          "competitors"
+        ],
+        "title": "Legacy Systems: Your Secret Weapon Against Competitors in 2026",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "designers",
+          "collaborate",
+          "developers"
+        ],
+        "title": "How UX/UI Designers Collaborate with Developers",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "prompt",
+          "branching"
+        ],
+        "title": "\u5c0d\u8a71\u7e3d\u662f\u5f88\u4e82\uff1f\u8a8d\u8b58 Branching Prompt\uff0c\u8b93 AI \u5354\u4f5c\u50cf\u6a39\u72c0\u5716\u4e00\u6a23\u6e05\u6670",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "design",
+          "results",
+          "case",
+          "education",
+          "big",
+          "class",
+          "intimate",
+          "small"
+        ],
+        "title": "Small Class, Big Results: The Case for Intimate Design Education",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "design",
+          "doing",
+          "graphic",
+          "education",
+          "institutes",
+          "best",
+          "2026",
+          "differently"
+        ],
+        "title": "Graphic Design Education in 2026: What the Best Institutes Are Doing Differently",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "teaches",
+          "trainer",
+          "matters",
+          "factor",
+          "taught"
+        ],
+        "title": "The Trainer Factor: Why Who Teaches Matters More Than What\u2019s Taught",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "zero",
+          "footing",
+          "portfolio",
+          "impact",
+          "institute",
+          "find",
+          "beginners"
+        ],
+        "title": "From Zero to Portfolio: Beginners Find Their Footing at Impact Institute",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "programme",
+          "marketing",
+          "teaches",
+          "impact",
+          "actually",
+          "institute",
+          "inside"
+        ],
+        "title": "Marketing That Actually Teaches Marketing: Inside Impact Institute\u2019s Programme",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      },
+      {
+        "tokens": [
+          "design",
+          "learning",
+          "pune",
+          "students",
+          "actually",
+          "training"
+        ],
+        "title": "UX Design Training in Pune: What Students Are Actually Learning",
+        "first_seen": "2026-03-23T07:18:34.787286+00:00"
+      }
+    ]
+  },
+  "progressive": {
+    "topics": [
+      {
+        "tokens": [
+          "panicking",
+          "wake",
+          "control",
+          "america",
+          "lost"
+        ],
+        "title": "He's lost control and he is panicking. Wake up America!",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "these",
+          "displaced",
+          "people",
+          "million",
+          "stories",
+          "lebanon"
+        ],
+        "title": "More Than 1 Million People in Lebanon Have Been Displaced. These Are Their Stories.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "seems",
+          "airports",
+          "exactly",
+          "know",
+          "ice"
+        ],
+        "title": "What Exactly Will ICE Do at Airports? No One Seems to Know.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "iranians",
+          "jiu",
+          "jitsuing",
+          "trump",
+          "insists",
+          "secretary",
+          "treasury"
+        ],
+        "title": "Treasury Secretary Insists Trump Is \u201cJiu-Jitsuing the Iranians\u201d",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "stuck",
+          "thrives",
+          "invasive",
+          "bureaucracy",
+          "weeds",
+          "plant"
+        ],
+        "title": "Stuck in the Weeds: The Invasive Plant That Thrives on Bureaucracy",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "refuses",
+          "elaborate"
+        ],
+        "title": "*refuses to elaborate*",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "mayor",
+          "good",
+          "munich",
+          "krause",
+          "elected",
+          "first",
+          "gay",
+          "news",
+          "dominik"
+        ],
+        "title": "Some good news: Munich just elected its first gay Mayor, Dominik Krause!",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "tho"
+        ],
+        "title": "Fr tho",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "absolutely",
+          "combs",
+          "country",
+          "song",
+          "loving",
+          "says",
+          "luke",
+          "star",
+          "kids",
+          "queer",
+          "applies"
+        ],
+        "title": "Country star Luke Combs says his song about loving kids absolutely applies to queer kids",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "sister",
+          "won",
+          "disinvited",
+          "wedding",
+          "bring",
+          "niece",
+          "nephew",
+          "because",
+          "wibtah"
+        ],
+        "title": "WIBTAH if I disinvited my sister from my wedding because she won\u2019t bring my niece and nephew",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "kolkata",
+          "privilege",
+          "right",
+          "identification",
+          "self"
+        ],
+        "title": "Kolkata: Self-identification is a right, not a privilege",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "shitshow",
+          "crashed",
+          "before",
+          "follow",
+          "ass",
+          "free",
+          "april",
+          "late",
+          "took",
+          "never",
+          "human",
+          "mind",
+          "transgender",
+          "life"
+        ],
+        "title": "60 in April transgender human crashed my shitshow at 50 before it took my life. It is never to late. Free your mind and your ass will follow.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "love",
+          "type",
+          "mind",
+          "unfortunately",
+          "different"
+        ],
+        "title": "Unfortunately for her, he had a different type of love in mind.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "came",
+          "partner",
+          "feel",
+          "sure",
+          "trans"
+        ],
+        "title": "partner came out as trans and not sure how I feel",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "deployed",
+          "staffing",
+          "unsafe",
+          "fly",
+          "tsa",
+          "step",
+          "partner",
+          "agents",
+          "being",
+          "ice",
+          "shortages"
+        ],
+        "title": "With ICE agents being deployed to step in for TSA staffing shortages, is it now unsafe for my partner and I to fly?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "radicalcottagecheese",
+          "edit",
+          "made",
+          "posted",
+          "meme"
+        ],
+        "title": "Edit it made of the meme posted by u/radicalcottagecheese",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "sunday",
+          "dinner",
+          "spotted",
+          "during"
+        ],
+        "title": "Spotted during sunday dinner \ud83d\ude05",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "let",
+          "etc",
+          "used",
+          "good",
+          "lgbtqia",
+          "wine",
+          "play",
+          "metaphors",
+          "game",
+          "allegories"
+        ],
+        "title": "So , let's play a game. What are some good Wine metaphors, allegories, etc that could be used for LGBTQIA+?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "here",
+          "brighten",
+          "almost",
+          "weekend",
+          "smile",
+          "day"
+        ],
+        "title": "The weekend is almost over but here's a smile to brighten your day",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "here",
+          "conversion",
+          "therapists",
+          "britain",
+          "still"
+        ],
+        "title": "Britain Still Has Conversion Therapists. Here\u2019s Why.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "public",
+          "hand",
+          "experience",
+          "holding",
+          "sex",
+          "partner",
+          "same"
+        ],
+        "title": "What's your experience with holding your same-sex partner's hand in public?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "girl",
+          "scouts",
+          "orders",
+          "online",
+          "supporting",
+          "cookie",
+          "trans"
+        ],
+        "title": "Supporting trans girl scouts with online cookie orders",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "parents",
+          "found"
+        ],
+        "title": "My parents found out",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "said",
+          "being",
+          "actors",
+          "vivi",
+          "yuri",
+          "doubling",
+          "respective",
+          "month",
+          "ship",
+          "action",
+          "down",
+          "netflix",
+          "piece",
+          "nami",
+          "earlier",
+          "actresses",
+          "live",
+          "remember",
+          "lgbt",
+          "ships"
+        ],
+        "title": "Remember what I said earlier this month about the One Piece Live Action Netflix Actors and Actresses being into their respective LGBT Ships? The actresses for Nami and Vivi are doubling down on their yuri ship!",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "girl",
+          "explain",
+          "stop",
+          "friend",
+          "calling"
+        ],
+        "title": "How can I explain to my friend to stop calling me a girl",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "hear",
+          "good",
+          "need",
+          "news"
+        ],
+        "title": "I need to hear good news.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "states",
+          "most",
+          "american",
+          "friendly",
+          "trans"
+        ],
+        "title": "The Most Trans Friendly American States",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "lgbtq",
+          "want",
+          "businesses",
+          "app",
+          "support",
+          "there"
+        ],
+        "title": "Want to support LGBTQ+ businesses? There's an app for that",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "march",
+          "1960",
+          "hosted",
+          "kronkite",
+          "documentary",
+          "television",
+          "carbon",
+          "aired",
+          "build",
+          "walter",
+          "warning",
+          "dioxide",
+          "cbs",
+          "day"
+        ],
+        "title": "On this day, March 22, in 1960: US television documentary warning of carbon dioxide build up aired on CBS, hosted by Walter Kronkite.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "david",
+          "says",
+          "fears",
+          "short",
+          "protect",
+          "earth",
+          "everything",
+          "suzuki",
+          "fallen",
+          "done"
+        ],
+        "title": "At 90, David Suzuki says he has done everything he could to protect the Earth, but fears he has fallen short",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "pump",
+          "don",
+          "crisis",
+          "haven",
+          "pain",
+          "days",
+          "april",
+          "hormuz",
+          "most",
+          "true",
+          "yet",
+          "massive",
+          "shipping",
+          "strait",
+          "felt",
+          "oceanic",
+          "because",
+          "ocean",
+          "cross",
+          "know",
+          "oil",
+          "tankers",
+          "coming",
+          "slow",
+          "taking",
+          "incredibly"
+        ],
+        "title": "The April oil crisis most don't know is coming. We haven\u2019t felt the true pain at the pump from the Strait of Hormuz yet because oceanic shipping is incredibly slow, with massive oil tankers taking about 30 to 40 days to cross the ocean to the US.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "drier",
+          "here",
+          "climate",
+          "trees",
+          "too",
+          "change",
+          "signs",
+          "colorado",
+          "happening",
+          "bad",
+          "plants",
+          "hotter",
+          "see",
+          "big",
+          "air",
+          "stressed",
+          "late",
+          "already",
+          "trouble",
+          "right",
+          "choked"
+        ],
+        "title": "Climate change is already happening in Colorado. Here are 10 signs we can see right now. | It\u2019s hotter, it\u2019s drier, the plants are stressed, the air is choked, and the trees are in big trouble. It\u2019s bad. But it\u2019s not too late.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "retreat",
+          "plans",
+          "global",
+          "electric",
+          "masse",
+          "carmakers",
+          "vehicle"
+        ],
+        "title": "Global carmakers retreat en masse from electric vehicle plans",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "smashing",
+          "march",
+          "records",
+          "climate",
+          "looks",
+          "change",
+          "southwest",
+          "heat"
+        ],
+        "title": "The Southwest smashing heat records in March 'is what climate change looks like'",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "easier",
+          "really",
+          "california",
+          "university",
+          "ton",
+          "yes",
+          "mahdavi",
+          "waters",
+          "words",
+          "windy",
+          "other",
+          "offshore",
+          "wind",
+          "because",
+          "oil",
+          "shallower",
+          "globalcarbonfeeanddividendpetition",
+          "biggest",
+          "paasha",
+          "build",
+          "opportunity",
+          "matters",
+          "turbines",
+          "venezuela"
+        ],
+        "title": "Yes, Venezuela Has a Ton of Oil\u2014But Its Biggest Opportunity Is Offshore Wind / \"In other words, it\u2019s really windy in shallower waters, and that matters, because when it\u2019s shallower, it\u2019s easier to build wind turbines.\" \u2013 Paasha Mahdavi, University of California #GlobalCarbonFeeAndDividendPetition",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "increasingly",
+          "climate",
+          "earth",
+          "balance",
+          "swings"
+        ],
+        "title": "Earth\u2019s climate swings increasingly out of balance",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "easier",
+          "gains",
+          "states",
+          "bill",
+          "plug",
+          "arrays",
+          "pass",
+          "balcony",
+          "bills",
+          "momentum",
+          "make",
+          "illinois",
+          "households",
+          "solar",
+          "next",
+          "adopt",
+          "dozen",
+          "considering"
+        ],
+        "title": "Balcony solar bill gains momentum in Illinois. More than two dozen states are considering bills that would make it easier for households to adopt plug-in solar arrays. Illinois could be next to pass one.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "emits",
+          "gasoline",
+          "powered",
+          "equivalent",
+          "emissions",
+          "climate",
+          "energy",
+          "methane",
+          "vehicles",
+          "roughly",
+          "manure",
+          "fix",
+          "thousands",
+          "project",
+          "touted",
+          "000",
+          "tons"
+        ],
+        "title": "Manure-to-energy project touted as climate fix emits thousands of tons of methane, roughly equivalent to emissions from 30,000 gasoline-powered vehicles.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "persistent",
+          "stream",
+          "convert",
+          "carbon",
+          "corridors",
+          "beavers",
+          "sinks"
+        ],
+        "title": "Beavers can convert stream corridors to persistent carbon sinks",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "hidden",
+          "point",
+          "antarctic",
+          "triggered",
+          "tipping"
+        ],
+        "title": "A Hidden Antarctic Tipping Point May Have Just Been Triggered",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "extent",
+          "war",
+          "reveals",
+          "fuel",
+          "fossil",
+          "iran",
+          "propaganda"
+        ],
+        "title": "How the Iran War Reveals the Extent of Fossil Fuel Propaganda",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "awareness",
+          "site",
+          "climate",
+          "write",
+          "job",
+          "something",
+          "solutions",
+          "other",
+          "part",
+          "people",
+          "making",
+          "feel",
+          "hardest",
+          "exhausted"
+        ],
+        "title": "I write for a climate solutions/awareness site and the hardest part of the job is making people feel something other than exhausted.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "seen",
+          "trigger",
+          "hawaii",
+          "worst",
+          "flees",
+          "jason",
+          "historic",
+          "momoa",
+          "floods",
+          "evacuations",
+          "mass"
+        ],
+        "title": "\u201cThe Worst I Seen It\u201d: Jason Momoa Flees Hawaii As Historic Floods Trigger Mass Evacuations",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "industrial",
+          "switching",
+          "asia",
+          "off",
+          "gas",
+          "revolution"
+        ],
+        "title": "Asia\u2019s Industrial Revolution Is Switching Off Gas",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "crisis",
+          "climate",
+          "extremes",
+          "there",
+          "rare",
+          "alabama",
+          "rains",
+          "heatwave",
+          "coast",
+          "snow",
+          "experts",
+          "flooding",
+          "gripping",
+          "severe",
+          "bear",
+          "say",
+          "hawaii",
+          "fingerprint",
+          "weather",
+          "west"
+        ],
+        "title": "Weather extremes gripping US bear climate crisis \u2018fingerprint\u2019, experts say | There are flooding rains in Hawaii, rare snow in Alabama and a severe heatwave in the west coast",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "report",
+          "climate",
+          "land",
+          "reflect",
+          "instead",
+          "keeps",
+          "earth",
+          "whack",
+          "continued",
+          "finds",
+          "oceans",
+          "fuels",
+          "space",
+          "fossil",
+          "allowing",
+          "balance",
+          "heat",
+          "burning",
+          "locking",
+          "back",
+          "stable",
+          "atmosphere"
+        ],
+        "title": "The Balance That Keeps Climate Stable Is Out of Whack, U.N. Report Finds | The continued burning of fossil fuels is locking heat in Earth\u2019s atmosphere, oceans and land \u2014 instead of allowing it to reflect back into space, a new report finds.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "becoming",
+          "buffets",
+          "warming",
+          "climate",
+          "hibernation",
+          "preventing",
+          "backyards",
+          "earlier",
+          "key",
+          "coexistence",
+          "brings",
+          "bears"
+        ],
+        "title": "As warming climate brings bears out of hibernation earlier, preventing backyards from becoming buffets is key to coexistence",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "kidney",
+          "aat",
+          "point",
+          "prevalence",
+          "eskd",
+          "population",
+          "temperatures",
+          "increase",
+          "each",
+          "000",
+          "associated",
+          "additional",
+          "disease",
+          "ckd",
+          "cases",
+          "linked",
+          "high",
+          "diagnosed",
+          "chronic",
+          "end",
+          "incidence",
+          "ambient",
+          "stage",
+          "100",
+          "percentage"
+        ],
+        "title": "High ambient temperatures linked to chronic kidney disease prevalence, end-stage kidney disease incidence. Each 1C increase in AAT was associated with a 0.23 percentage point increase in the prevalence of diagnosed CKD and with an additional 1.37 ESKD cases/100,000 population.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "virginia",
+          "climate",
+          "syrup",
+          "threatens",
+          "change",
+          "highland",
+          "county",
+          "production",
+          "maple"
+        ],
+        "title": "Climate change threatens maple syrup production in Highland County, Virginia",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "water",
+          "safe",
+          "many",
+          "amazon",
+          "lack",
+          "drinking",
+          "yet",
+          "everywhere",
+          "communities"
+        ],
+        "title": "In the Amazon, water is everywhere \u2014 yet many communities lack safe drinking water",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "here",
+          "orcid",
+          "built",
+          "database",
+          "researchers",
+          "shows",
+          "carbon",
+          "removal",
+          "open",
+          "data",
+          "using",
+          "openalex",
+          "122",
+          "openclaw",
+          "000"
+        ],
+        "title": "We built an open database of 122,000+ carbon removal researchers \u2014 here's what the data shows (built using openclaw, openalex, orcid)",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "largest",
+          "federal",
+          "union",
+          "says",
+          "tsa",
+          "untrained",
+          "replace",
+          "workers",
+          "agents",
+          "ice",
+          "armed"
+        ],
+        "title": "The largest federal workers union says 'untrained, armed' ICE agents should not replace TSA",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "hybrid",
+          "gave",
+          "work",
+          "war",
+          "time",
+          "week",
+          "covid",
+          "say",
+          "stick",
+          "experts",
+          "day",
+          "give",
+          "iran"
+        ],
+        "title": "Covid gave us hybrid work. The Iran War might give us a 4-day week\u2014and this time, experts say it could stick",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "market",
+          "stuff",
+          "afford",
+          "stock",
+          "again",
+          "waiting",
+          "else",
+          "anyone",
+          "crash"
+        ],
+        "title": "Is anyone else waiting for the US stock market to crash so they can afford stuff again?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "home",
+          "work",
+          "save",
+          "urged",
+          "drive",
+          "slower",
+          "australians",
+          "fuel"
+        ],
+        "title": "Australians urged to work from home and drive slower to save fuel",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "capitalism",
+          "die",
+          "wanna",
+          "makes"
+        ],
+        "title": "Capitalism makes me wanna die",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "before",
+          "manager",
+          "job",
+          "quit",
+          "holiday",
+          "goes",
+          "day"
+        ],
+        "title": "just quit my job the day before my manager goes on holiday",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "largest",
+          "wage",
+          "increase",
+          "ratify",
+          "harvard",
+          "decades",
+          "contract",
+          "custodians",
+          "year"
+        ],
+        "title": "Harvard Custodians Ratify New 4-Year Contract, the Largest Wage Increase for Harvard Custodians in 2 Decades:",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "wants",
+          "decent",
+          "pay",
+          "employees",
+          "wages"
+        ],
+        "title": "No Employees? No one wants to pay decent wages.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "feed",
+          "unions",
+          "nonprofits",
+          "tsa",
+          "airports",
+          "rally",
+          "drags",
+          "officers",
+          "shutdown"
+        ],
+        "title": "Nonprofits, unions and airports rally to feed TSA officers as shutdown drags",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "coffee",
+          "under",
+          "shop",
+          "scrutiny",
+          "paying",
+          "during",
+          "workers",
+          "training"
+        ],
+        "title": "Coffee shop under scrutiny for not paying workers during training",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "effort",
+          "insult",
+          "put",
+          "rewarded"
+        ],
+        "title": "Put in the effort, was rewarded with insult",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "jack",
+          "man",
+          "destroyed",
+          "welch",
+          "youtube",
+          "workplace",
+          "modern"
+        ],
+        "title": "The man that destroyed the modern workplace: Jack Welch - YouTube",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "affecting",
+          "rto",
+          "prices",
+          "gas"
+        ],
+        "title": "Gas prices affecting RTO?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "preparing",
+          "angeles",
+          "teachers",
+          "los",
+          "strike"
+        ],
+        "title": "Why are Los Angeles teachers preparing to strike?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "manager",
+          "call",
+          "only",
+          "intentionally",
+          "contact"
+        ],
+        "title": "Why would a manager intentionally contact you only when you\u2019re on a call?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "pto",
+          "work",
+          "either",
+          "rant",
+          "days",
+          "insurance",
+          "yeah",
+          "fucking",
+          "health",
+          "year"
+        ],
+        "title": "Have to work over a year just to get fucking 5 days of PTO. Oh yeah, no health insurance either. (Rant)",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "fired",
+          "rant"
+        ],
+        "title": "I just got fired (rant)",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "quit",
+          "without",
+          "notice"
+        ],
+        "title": "Should I quit without notice?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "week",
+          "worked",
+          "upskill",
+          "every",
+          "feel",
+          "death",
+          "study",
+          "being",
+          "industry"
+        ],
+        "title": "So how do you upskill and study for your industry, when you feel like you're being worked to death every week?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "let",
+          "shouted",
+          "boss",
+          "feel",
+          "upset",
+          "client",
+          "infront"
+        ],
+        "title": "Boss shouted at me infront of client and I feel upset, should I let it go?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "world",
+          "defend",
+          "idea",
+          "corporate"
+        ],
+        "title": "How do I defend my idea in a corporate world?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "burnout",
+          "india",
+          "workers"
+        ],
+        "title": "Burnout of workers in India",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "much",
+          "starting",
+          "months",
+          "job",
+          "days",
+          "since",
+          "ago",
+          "too",
+          "off"
+        ],
+        "title": "Is 4 days off since starting a job 4 months ago too much?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "set",
+          "precedent"
+        ],
+        "title": "The precedent has been set up",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "walk",
+          "humans",
+          "literally",
+          "earth",
+          "ever",
+          "republicans",
+          "dumbest"
+        ],
+        "title": "Republicans are literally the dumbest humans to ever walk the earth.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "girls",
+          "pregnancy",
+          "positive",
+          "testing",
+          "underage"
+        ],
+        "title": "Underage girls testing positive for pregnancy..",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "white",
+          "voted",
+          "farmers",
+          "trump",
+          "2024"
+        ],
+        "title": "Over 77% of White Farmers voted for Trump in 2024",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "art",
+          "steal"
+        ],
+        "title": "The Art of the Steal",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "better",
+          "these",
+          "light",
+          "years",
+          "single",
+          "every"
+        ],
+        "title": "Every single one of these would be light-years better than what we have now",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "need",
+          "tell",
+          "love",
+          "trump",
+          "hate"
+        ],
+        "title": "\u201cI need Trump to tell us what and who to hate and love!\u201d",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "appropriate",
+          "answer"
+        ],
+        "title": "Appropriate answer.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "respond",
+          "amount",
+          "fact",
+          "terrifies",
+          "population",
+          "sizeable",
+          "actually",
+          "plan",
+          "genuinely",
+          "pro",
+          "rape",
+          "there",
+          "actual"
+        ],
+        "title": "There is no actual plan on how to respond to the fact that a sizeable amount of the population is actually, genuinely, pro-rape. This fact terrifies me.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "update"
+        ],
+        "title": "UPDATE?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "zero",
+          "actions",
+          "plan",
+          "seriously",
+          "guy"
+        ],
+        "title": "The guy seriously had zero plan for his actions!!",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "starting",
+          "airports",
+          "monday",
+          "agents",
+          "ice"
+        ],
+        "title": "ICE agents to airports starting Monday",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "sign",
+          "times"
+        ],
+        "title": "Sign of the times",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "anonymity",
+          "under",
+          "attack",
+          "online"
+        ],
+        "title": "Online anonymity is under attack",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "appalling",
+          "absolutely",
+          "hypocrisy"
+        ],
+        "title": "The hypocrisy is just absolutely appalling...",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "owns",
+          "bernie",
+          "bottom",
+          "sanders",
+          "people",
+          "paycheck",
+          "households",
+          "wealth",
+          "guy",
+          "living"
+        ],
+        "title": "\u201c60% of our people living paycheck to paycheck\u2026 one guy owns more wealth than the bottom 53% of households.\u201d \u2014 Bernie Sanders",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "dude",
+          "midterms",
+          "terrified"
+        ],
+        "title": "dude is TERRIFIED of the midterms.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "started",
+          "epstein",
+          "war",
+          "distract",
+          "files"
+        ],
+        "title": "This war was started to distract us from the Epstein files",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "general",
+          "says",
+          "trump",
+          "french",
+          "think"
+        ],
+        "title": "French general says what we all think about Trump:",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "american",
+          "lock",
+          "enough",
+          "wasn",
+          "kirk",
+          "wanted",
+          "republicans",
+          "death",
+          "monger",
+          "every",
+          "hate",
+          "charlie",
+          "remember",
+          "mournful"
+        ],
+        "title": "Remember when Republicans wanted to lock up every American who wasn't mournful enough over the death of hate-monger Charlie Kirk?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "alone",
+          "jacket",
+          "those",
+          "strait",
+          "him",
+          "tweets"
+        ],
+        "title": "Those tweets alone should get him a strait jacket!",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "bahrain",
+          "planned",
+          "flags",
+          "bombing",
+          "ago",
+          "reported",
+          "weeks",
+          "false",
+          "turns",
+          "iran"
+        ],
+        "title": "So it turns out it was the US bombing Bahrain 2 weeks ago, not Iran as reported. More false flags planned.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "calls",
+          "iran",
+          "enemy",
+          "greatest",
+          "trump",
+          "america",
+          "left"
+        ],
+        "title": "Trump calls the Left America\u2019s \u201cgreatest enemy\u201d after Iran",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "war",
+          "stop",
+          "old",
+          "repeats",
+          "ground",
+          "horrors"
+        ],
+        "title": "Ground war repeats old horrors. Stop this.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "track",
+          "tale",
+          "republicans",
+          "such",
+          "criminal",
+          "probability",
+          "propose",
+          "real",
+          "punishments",
+          "ohio",
+          "civil",
+          "other",
+          "fines",
+          "pregnancies",
+          "michele",
+          "professor",
+          "page",
+          "handmaid",
+          "horrors",
+          "very",
+          "warns",
+          "bill",
+          "carry",
+          "bills",
+          "law",
+          "goodwin"
+        ],
+        "title": "A page out of \u2018The Handmaid's Tale\u2019: Ohio Republicans propose bill to track all pregnancies. Law professor Michele Goodwin warns that such bills carry a very real probability of criminal punishments, civil fines, and other horrors.",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "crisis",
+          "mental",
+          "lose",
+          "hitting",
+          "yourself",
+          "gen",
+          "women",
+          "health",
+          "inside"
+        ],
+        "title": "\u2018You lose yourself\u2019: inside the mental health crisis hitting gen X women",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "grandmothers",
+          "expect",
+          "mothers",
+          "housework",
+          "else",
+          "know",
+          "anyone"
+        ],
+        "title": "Did anyone else\u2019s mothers/grandmothers just expect them to know how to do housework?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "march",
+          "water",
+          "world",
+          "22nd",
+          "day"
+        ],
+        "title": "World Water Day (22nd March)",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "product",
+          "eyes"
+        ],
+        "title": "Her product, his eyes",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "face",
+          "mindanao",
+          "movement",
+          "empowerment",
+          "women",
+          "summit"
+        ],
+        "title": "Face the Movement: Mindanao Women's Empowerment Summit",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "paid",
+          "union",
+          "prioritizing",
+          "agrees",
+          "workers",
+          "contract",
+          "lowest",
+          "dutchess"
+        ],
+        "title": "Dutchess Agrees to New Union Contract Prioritizing lowest-Paid Workers",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "wholefoodsworkersunited",
+          "org",
+          "pledge",
+          "bezos",
+          "tell",
+          "sign"
+        ],
+        "title": "Go to WholeFoodsWorkersUnited.org and sign their pledge to tell Bezos th...",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "nyu",
+          "faculty",
+          "back",
+          "union",
+          "electeds",
+          "looming",
+          "nyc",
+          "strike"
+        ],
+        "title": "NYC electeds back NYU faculty union with strike looming",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "union",
+          "school",
+          "private"
+        ],
+        "title": "Private School Union",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "entering",
+          "instead",
+          "via",
+          "visa",
+          "dallas",
+          "okay"
+        ],
+        "title": "Entering US on G4 visa via Dallas instead of DC - okay?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "results",
+          "h1b",
+          "lottery",
+          "know"
+        ],
+        "title": "When are we know the H1b lottery results?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "europe",
+          "tourist",
+          "customs",
+          "cash",
+          "affect",
+          "entry",
+          "fine"
+        ],
+        "title": "Can a customs cash fine in Europe affect US re-entry as a tourist?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "safe",
+          "rejection",
+          "opt",
+          "via",
+          "during",
+          "stamping",
+          "cos"
+        ],
+        "title": "H4 to F-1 via COS After Rejection \u2014 Safe to Do Stamping During OPT?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "question",
+          "personal",
+          "regarding",
+          "travel",
+          "port",
+          "entry"
+        ],
+        "title": "Regarding port of entry question for personal travel",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "other",
+          "visa",
+          "option"
+        ],
+        "title": "TN Visa or Other Option?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "depart",
+          "parents",
+          "family",
+          "close",
+          "voluntarily",
+          "anyone",
+          "self"
+        ],
+        "title": "Anyone\u2019s Parents or close family Self / Voluntarily Depart?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "someone",
+          "finalized",
+          "good",
+          "heart",
+          "terrified",
+          "help",
+          "still"
+        ],
+        "title": "Finalized, But Still Terrified. Can Someone With A Good Heart Help?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "visa",
+          "require",
+          "parents",
+          "letter"
+        ],
+        "title": "Does the K1 visa require a letter from parents?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "arrival",
+          "visa"
+        ],
+        "title": "Visa on Arrival",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "immigration",
+          "question"
+        ],
+        "title": "Immigration Question",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "dependent",
+          "remove"
+        ],
+        "title": "Can I remove an F2 dependent?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "weeks",
+          "visiting",
+          "inbetween",
+          "times"
+        ],
+        "title": "Visiting two times with two weeks inbetween",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "feb",
+          "batch",
+          "received",
+          "person",
+          "27th",
+          "loi",
+          "2024",
+          "date",
+          "anyone",
+          "interview",
+          "13th",
+          "jan"
+        ],
+        "title": "Anyone Received loi on 27th feb and has received the ol ?? Batch 2024,interview date 13th jan in person",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "looking",
+          "lawyer",
+          "case",
+          "complex"
+        ],
+        "title": "Looking for a lawyer - complex case",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "contact",
+          "congressman"
+        ],
+        "title": "Should I contact my congressman?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "immigration",
+          "lawyer"
+        ],
+        "title": "Immigration Lawyer",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "options"
+        ],
+        "title": "Options",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "passport"
+        ],
+        "title": "US passport",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "spouse",
+          "rejected",
+          "advice",
+          "needed",
+          "twice"
+        ],
+        "title": "Advice Needed: Spouse F-2 rejected twice",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "lay",
+          "options",
+          "off"
+        ],
+        "title": "Options after lay off on H1-B",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "investor",
+          "visa"
+        ],
+        "title": "US investor visa E-2",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "help",
+          "seeking",
+          "need",
+          "asylum"
+        ],
+        "title": "Hi I need help with seeking asylum ;(",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "real",
+          "germany",
+          "please",
+          "argentina",
+          "discussion"
+        ],
+        "title": "germany or argentina , real discussion please",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "card",
+          "arrested",
+          "green",
+          "travel"
+        ],
+        "title": "Arrested on Green Card, can I travel?",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "sites",
+          "energy",
+          "hormuz",
+          "threatens",
+          "trump",
+          "reopens",
+          "strait",
+          "unless",
+          "iran",
+          "strike"
+        ],
+        "title": "Trump Threatens to Strike Iran Energy Sites Unless Strait of Hormuz Reopens",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "senate",
+          "gop",
+          "blocks",
+          "tsa",
+          "airports",
+          "threatens",
+          "pay",
+          "trump",
+          "send",
+          "ice"
+        ],
+        "title": "Senate GOP Blocks TSA Pay as Trump Threatens to Send ICE to Airports",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "seen",
+          "deepfakes",
+          "war",
+          "online",
+          "reshape",
+          "misinformation"
+        ],
+        "title": "Deepfakes and AI Misinformation Reshape How War Is Seen Online",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "hurt",
+          "people",
+          "cuba",
+          "trump",
+          "sanctions",
+          "governments",
+          "iran"
+        ],
+        "title": "From Iran to Cuba, Trump\u2019s Sanctions Have Hurt People More Than Governments",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "preserve",
+          "palestinians",
+          "gaza",
+          "libraries",
+          "fight",
+          "historical",
+          "ruins",
+          "memory"
+        ],
+        "title": "With Gaza\u2019s Libraries in Ruins, Palestinians Fight to Preserve Historical Memory",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      },
+      {
+        "tokens": [
+          "revoked",
+          "tool",
+          "air",
+          "california",
+          "bets",
+          "clean",
+          "trump",
+          "replace",
+          "obscure",
+          "authority"
+        ],
+        "title": "California bets on an obscure tool to replace clean air authority Trump revoked",
+        "first_seen": "2026-03-23T07:19:04.868330+00:00"
+      }
+    ]
+  },
+  "zeitgeist": {
+    "topics": [
+      {
+        "tokens": [
+          "grok",
+          "going",
+          "deepfakes"
+        ],
+        "title": "What\u2019s going on with AI deepfakes on Grok?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "black",
+          "destruction",
+          "other",
+          "unpleasant",
+          "events",
+          "people",
+          "going",
+          "sparing",
+          "iran"
+        ],
+        "title": "What is going on with Iran sparing us (black people) from destruction and or other unpleasant events?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "safe",
+          "topics"
+        ],
+        "title": "Safe Topics",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "developing",
+          "countries",
+          "experienced",
+          "worth",
+          "people",
+          "developed",
+          "life",
+          "homeland",
+          "living",
+          "building"
+        ],
+        "title": "people from developing countries who've experienced living in developed countries, is it worth building a life in your homeland?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "tell",
+          "people",
+          "advice",
+          "feel",
+          "criticism",
+          "give",
+          "defensive"
+        ],
+        "title": "Why do I feel so defensive when people give me advice, criticism, or tell me what to do?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "related",
+          "gaming",
+          "topics",
+          "plz"
+        ],
+        "title": "More gaming related topics plz",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "level",
+          "any",
+          "tips",
+          "college",
+          "make",
+          "difficult",
+          "surface",
+          "find",
+          "school",
+          "made",
+          "ones",
+          "friends",
+          "very"
+        ],
+        "title": "I find it very difficult to make friends who are not just surface level ones, like I made when I was in college/school. Any tips?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "bit",
+          "growing",
+          "feeling"
+        ],
+        "title": "Feeling like I'm growing up bit by bit",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "change",
+          "actually",
+          "life",
+          "make"
+        ],
+        "title": "How to actually make change in life?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "youth",
+          "enjoy",
+          "everything",
+          "life",
+          "coded"
+        ],
+        "title": "What to do when everything you enjoy about life is youth coded?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "meditation",
+          "worked",
+          "hasn"
+        ],
+        "title": "Meditation hasn\u2019t worked for me",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "meditation",
+          "links",
+          "any"
+        ],
+        "title": "Any Meditation Links?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "weed",
+          "permanently",
+          "months",
+          "daily",
+          "effect",
+          "use",
+          "memory"
+        ],
+        "title": "Can 6 months of daily weed use at 17 permanently effect memory",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "guys",
+          "take",
+          "decision",
+          "must"
+        ],
+        "title": "Guys... I must take a decision",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "sucks",
+          "everything",
+          "bad",
+          "literally"
+        ],
+        "title": "I am literally bad at everything and it sucks.",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "stressed",
+          "advice",
+          "good",
+          "any"
+        ],
+        "title": "Stressed out any advice would be good",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "want",
+          "none",
+          "hangout",
+          "ever",
+          "normal",
+          "friends"
+        ],
+        "title": "Is it normal that none of my friends ever want to hangout with me?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "intense",
+          "healed",
+          "body",
+          "anxiety",
+          "anyone",
+          "successfully"
+        ],
+        "title": "Has anyone successfully healed intense body anxiety?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "comfortable"
+        ],
+        "title": "How does one get comfortable?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "someone",
+          "video",
+          "change",
+          "know",
+          "overnight",
+          "talks",
+          "life"
+        ],
+        "title": "Does someone know the video where dr.K talks about how you can change your life overnight?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "feels",
+          "overwhelmed",
+          "genuinely",
+          "right",
+          "guys"
+        ],
+        "title": "Guys i genuinely feels so overwhelmed right now like",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "learn",
+          "accept",
+          "things",
+          "change"
+        ],
+        "title": "How do I learn to accept things I can\u2019t change?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "japanese",
+          "proves",
+          "between",
+          "generations",
+          "persistency",
+          "butterflies",
+          "kid",
+          "research",
+          "memories"
+        ],
+        "title": "A Japanese kid's research proves persistency of memories between generations of butterflies!",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "problem",
+          "organization",
+          "issues",
+          "persisting",
+          "project",
+          "solving"
+        ],
+        "title": "Persisting issues with problem solving and project organization",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "livelihood",
+          "fears",
+          "laid",
+          "career",
+          "off",
+          "being",
+          "future"
+        ],
+        "title": "Career and future livelihood fears after being laid off",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "again",
+          "former",
+          "colleague",
+          "ignore"
+        ],
+        "title": "Should I ignore my former colleague again?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "lam",
+          "meditation",
+          "ham",
+          "experience"
+        ],
+        "title": "How is your experience with the Lam Ham meditation?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "reasons",
+          "lack",
+          "initiative",
+          "gen",
+          "fired",
+          "getting"
+        ],
+        "title": "Why are Gen Z getting fired? One of the reasons is a lack of initiative.",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "top",
+          "nurse",
+          "labor",
+          "things",
+          "delivery",
+          "men",
+          "give",
+          "ick"
+        ],
+        "title": "Top 5 things that men do that give her the ick as a labor and delivery nurse.",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "loud",
+          "silence"
+        ],
+        "title": "The silence was loud",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "britney",
+          "never"
+        ],
+        "title": "Britney could never",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "takes",
+          "lol",
+          "really",
+          "village"
+        ],
+        "title": "It really takes a village lol",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "birthing"
+        ],
+        "title": "The Birthing",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "actor",
+          "altercation",
+          "alan",
+          "neighbor",
+          "rictchson"
+        ],
+        "title": "Actor Alan Rictchson in an altercation with a neighbor!",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "marriage",
+          "good",
+          "women"
+        ],
+        "title": "\"If marriage was good for women...\"",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "here",
+          "prices",
+          "ronald",
+          "spells",
+          "casting",
+          "weasley",
+          "gas"
+        ],
+        "title": "Ronald Weasley out here, casting spells on gas prices",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "octopus",
+          "brought",
+          "tear",
+          "thanking",
+          "eye",
+          "rescuers"
+        ],
+        "title": "This Octopus Thanking Its Rescuers Brought A Tear To My Eye \ud83e\udd79",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "someone",
+          "wtf",
+          "please",
+          "explain"
+        ],
+        "title": "Can someone please explain this bc wtf",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "really",
+          "green",
+          "red",
+          "flag"
+        ],
+        "title": "Is this really a green flag or red flag?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "chiropractors",
+          "tiktok"
+        ],
+        "title": "TikTok chiropractors",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "doing",
+          "bus",
+          "macomb",
+          "school",
+          "caught",
+          "employees",
+          "county",
+          "activities"
+        ],
+        "title": "Macomb County school employees caught doing x-activities in school bus.",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "scheme",
+          "pyramid"
+        ],
+        "title": "Pyramid Scheme \ud83d\ude2c",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "afroman",
+          "hater",
+          "year"
+        ],
+        "title": "Hater Of The Year - Afroman",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "mom",
+          "telling",
+          "shut"
+        ],
+        "title": "Telling the mom to shut it",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "central",
+          "thailand",
+          "cee",
+          "performing"
+        ],
+        "title": "Central Cee ~performing~ in Thailand",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "towards",
+          "entertainment",
+          "forms",
+          "other",
+          "entertainers",
+          "elitist"
+        ],
+        "title": "Why entertainers are so elitist towards other forms of entertainment?",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "tiktok",
+          "letters",
+          "those",
+          "people",
+          "pfp",
+          "corny"
+        ],
+        "title": "Those letters pfp people in TikTok are so corny",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "bro",
+          "corny"
+        ],
+        "title": "So corny bro \ud83e\udee9",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
+      },
+      {
+        "tokens": [
+          "countries",
+          "movies",
+          "shot",
+          "people",
+          "show",
+          "getting",
+          "different"
+        ],
+        "title": "How movies in different countries show people getting shot",
+        "first_seen": "2026-03-23T07:19:28.192450+00:00"
       }
     ]
   }
