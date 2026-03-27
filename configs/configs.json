@@ -1,12 +1,12 @@
 {
   "configs": [
-    {"file": "config-ai.json", "active": true},
-    {"file": "config-privacy.json", "active": true},
-    {"file": "config-culture.json", "active": true},
-    {"file": "config-productmarketing.json", "active": true},
-    {"file": "config-mainstream.json", "active": true},
-    {"file": "config-progressive.json", "active": true},
-    {"file": "config-zeitgeist.json", "active": true},
+    {"file": "config-ai.json", "active": false},
+    {"file": "config-privacy.json", "active": false},
+    {"file": "config-culture.json", "active": false},
+    {"file": "config-productmarketing.json", "active": false},
+    {"file": "config-mainstream.json", "active": false},
+    {"file": "config-progressive.json", "active": false},
+    {"file": "config-zeitgeist.json", "active": false},
     {"file": "config-mysterymaker.json", "active": true}
   ]
 }
