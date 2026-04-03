@@ -6496,139 +6496,6 @@
     "topics": [
       {
         "tokens": [
-          "classics",
-          "still",
-          "enjoy"
-        ],
-        "title": "Do you still enjoy the classics?",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "finding",
-          "board",
-          "signature",
-          "game"
-        ],
-        "title": "Finding your \"Signature\" Board Game",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "session",
-          "ever",
-          "gaming",
-          "worst"
-        ],
-        "title": "Worst gaming session ever?",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "mystery",
-          "case",
-          "file",
-          "self",
-          "made",
-          "checkout"
-        ],
-        "title": "Checkout this self made mystery case file",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "want"
-        ],
-        "title": "Want to get into D&D",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "party",
-          "sils",
-          "future",
-          "bridal"
-        ],
-        "title": "Future SILs and bridal party",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "party",
-          "granny",
-          "ideas",
-          "gruffalo"
-        ],
-        "title": "Gruffalo Granny party ideas",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "decor",
-          "cheap"
-        ],
-        "title": "Where to get cheap decor?",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "starting",
-          "early",
-          "year",
-          "halloween",
-          "really",
-          "plan"
-        ],
-        "title": "I am starting really early to plan for this year's Halloween.",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "party",
-          "gaga",
-          "grad",
-          "ideas",
-          "lady"
-        ],
-        "title": "LADY GAGA GRAD PARTY IDEAS",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "need",
-          "help",
-          "drink",
-          "entertainment",
-          "bday",
-          "ideas",
-          "food"
-        ],
-        "title": "NEED HELP WITH FOOD, DRINK, and ENTERTAINMENT IDEAS FOR MY BDAY",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "party",
-          "birthday",
-          "suggestions",
-          "craft"
-        ],
-        "title": "Craft birthday party suggestions",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
-          "team",
-          "actually",
-          "building",
-          "feel",
-          "helps"
-        ],
-        "title": "Do you feel like team building actually helps?",
-        "first_seen": "2026-03-25T07:59:09.074984+00:00"
-      },
-      {
-        "tokens": [
           "game",
           "drinking",
           "played",
@@ -6900,6 +6767,68 @@
         ],
         "title": "Cost-effective way to host a party at home?",
         "first_seen": "2026-04-01T07:27:50.538837+00:00"
+      },
+      {
+        "tokens": [
+          "nothing",
+          "seasons",
+          "handle",
+          "apps",
+          "game",
+          "competition",
+          "ongoing",
+          "spreadsheets",
+          "group"
+        ],
+        "title": "How does your game group handle seasons or ongoing competition? Spreadsheets? Apps? Nothing?",
+        "first_seen": "2026-04-03T07:16:22.965679+00:00"
+      },
+      {
+        "tokens": [
+          "going",
+          "wedding",
+          "ours",
+          "friends"
+        ],
+        "title": "Should we go to our friends\u2019 wedding if they\u2019re not going to ours?",
+        "first_seen": "2026-04-03T07:16:22.965679+00:00"
+      },
+      {
+        "tokens": [
+          "dinner",
+          "catered",
+          "private"
+        ],
+        "title": "Private catered dinner",
+        "first_seen": "2026-04-03T07:16:22.965679+00:00"
+      },
+      {
+        "tokens": [
+          "challenges",
+          "party",
+          "fun",
+          "bach",
+          "creative"
+        ],
+        "title": "What are some fun, creative, and PG challenges for a bach party?",
+        "first_seen": "2026-04-03T07:16:22.965679+00:00"
+      },
+      {
+        "tokens": [
+          "wedding",
+          "free",
+          "kindle",
+          "april",
+          "whodunit",
+          "mystery",
+          "vijay",
+          "murder",
+          "6th",
+          "through",
+          "kerji"
+        ],
+        "title": "Kindle - Murder At The Wedding - Vijay Kerji - Mystery Whodunit - Free Through April 6th",
+        "first_seen": "2026-04-03T07:16:22.965679+00:00"
       }
     ]
   },
