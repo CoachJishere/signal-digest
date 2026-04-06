@@ -6496,160 +6496,6 @@
     "topics": [
       {
         "tokens": [
-          "game",
-          "drinking",
-          "played",
-          "based",
-          "roasts",
-          "app",
-          "end",
-          "built"
-        ],
-        "title": "I built a drinking game app that roasts you at the end based on how you played",
-        "first_seen": "2026-03-27T07:18:02.705253+00:00"
-      },
-      {
-        "tokens": [
-          "mystery",
-          "party",
-          "hosting",
-          "pro",
-          "murder",
-          "tips"
-        ],
-        "title": "Tips on Hosting a Murder Mystery Party - 5x 'Pro'",
-        "first_seen": "2026-03-27T07:18:02.705253+00:00"
-      },
-      {
-        "tokens": [
-          "dinner",
-          "drinks",
-          "roma",
-          "norte",
-          "cdmx",
-          "welcome",
-          "spot",
-          "rehearsal"
-        ],
-        "title": "Roma Norte rehearsal dinner / welcome drinks spot (CDMX)",
-        "first_seen": "2026-03-27T07:18:02.705253+00:00"
-      },
-      {
-        "tokens": [
-          "paper",
-          "became",
-          "somehow",
-          "party",
-          "birthday",
-          "argument",
-          "planning",
-          "biggest",
-          "small",
-          "hats",
-          "daughter"
-        ],
-        "title": "planning my daughter\u2019s birthday party and somehow the small paper hats became the biggest argument",
-        "first_seen": "2026-03-27T07:18:02.705253+00:00"
-      },
-      {
-        "tokens": [
-          "bachelorette",
-          "party"
-        ],
-        "title": "Bachelorette party",
-        "first_seen": "2026-03-27T07:18:02.705253+00:00"
-      },
-      {
-        "tokens": [
-          "favor",
-          "ideas",
-          "30th",
-          "party",
-          "birthday"
-        ],
-        "title": "Favor Ideas for a 30th Birthday Party",
-        "first_seen": "2026-03-27T07:18:02.705253+00:00"
-      },
-      {
-        "tokens": [
-          "ideas",
-          "family",
-          "night",
-          "looking",
-          "activity"
-        ],
-        "title": "Looking for ideas for family night activity",
-        "first_seen": "2026-03-27T07:18:02.705253+00:00"
-      },
-      {
-        "tokens": [
-          "party",
-          "bachelor",
-          "destinations",
-          "joint"
-        ],
-        "title": "Joint Bachelor Party Destinations?",
-        "first_seen": "2026-03-30T07:49:01.877202+00:00"
-      },
-      {
-        "tokens": [
-          "bar",
-          "poor",
-          "party",
-          "birthday",
-          "24th",
-          "cash",
-          "etiquette"
-        ],
-        "title": "Is a cash bar poor etiquette for a 24th birthday party?",
-        "first_seen": "2026-03-30T07:49:01.877202+00:00"
-      },
-      {
-        "tokens": [
-          "party",
-          "find",
-          "hats",
-          "properly",
-          "comfortable",
-          "fit",
-          "planning",
-          "adults",
-          "fail"
-        ],
-        "title": "Party planning fail - can't find comfortable party hats that fit adults properly",
-        "first_seen": "2026-03-30T07:49:01.877202+00:00"
-      },
-      {
-        "tokens": [
-          "theme",
-          "mix",
-          "food",
-          "cultural"
-        ],
-        "title": "Food vs. theme cultural mix",
-        "first_seen": "2026-03-30T07:49:01.877202+00:00"
-      },
-      {
-        "tokens": [
-          "fun",
-          "fine",
-          "dining"
-        ],
-        "title": "Fun and / or fine dining?",
-        "first_seen": "2026-03-30T07:49:01.877202+00:00"
-      },
-      {
-        "tokens": [
-          "party",
-          "first",
-          "birthday",
-          "beary"
-        ],
-        "title": "The BEARY first birthday party!",
-        "first_seen": "2026-03-30T07:49:01.877202+00:00"
-      },
-      {
-        "tokens": [
           "family",
           "desi",
           "inspired",
@@ -6829,6 +6675,85 @@
         ],
         "title": "Kindle - Murder At The Wedding - Vijay Kerji - Mystery Whodunit - Free Through April 6th",
         "first_seen": "2026-04-03T07:16:22.965679+00:00"
+      },
+      {
+        "tokens": [
+          "party",
+          "game",
+          "mystery",
+          "advice",
+          "murder"
+        ],
+        "title": "Murder Mystery Party/Game Advice",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
+      },
+      {
+        "tokens": [
+          "toxic",
+          "groomsman"
+        ],
+        "title": "Toxic GF of groomsman",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
+      },
+      {
+        "tokens": [
+          "six",
+          "checklist",
+          "ultimate",
+          "timeline",
+          "missing",
+          "months"
+        ],
+        "title": "Six months out, what am I missing? Ultimate timeline/checklist!",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
+      },
+      {
+        "tokens": [
+          "lincoln",
+          "party",
+          "birthday",
+          "1st",
+          "need",
+          "ideas"
+        ],
+        "title": "Need ideas for a 1st birthday party! Lincoln is 1\u00a2",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
+      },
+      {
+        "tokens": [
+          "help",
+          "birthday",
+          "activity"
+        ],
+        "title": "Birthday activity help!",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
+      },
+      {
+        "tokens": [
+          "someone",
+          "city",
+          "meet",
+          "smaller"
+        ],
+        "title": "Where do you meet someone in a smaller city?",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
+      },
+      {
+        "tokens": [
+          "help",
+          "bachelorette",
+          "game"
+        ],
+        "title": "Bachelorette Game Help",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
+      },
+      {
+        "tokens": [
+          "birthday",
+          "party"
+        ],
+        "title": "birthday party",
+        "first_seen": "2026-04-06T07:50:38.067598+00:00"
       }
     ]
   },
