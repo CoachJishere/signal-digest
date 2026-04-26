@@ -36,6 +36,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+          APIFY_PROXY_PASSWORD: ${{ secrets.APIFY_PROXY_PASSWORD }}
         run: |
           CONFIG="${{ github.event.inputs.config }}"
           if [ -n "$CONFIG" ]; then

@@ -215,9 +215,9 @@ def _fetch_apify_source(source: dict) -> list[dict]:
     return items
 
 
-def _fetch_url_via_apify_proxy(url: str, apify_key: str) -> bytes:
+def _fetch_url_via_apify_proxy(url: str, proxy_password: str) -> bytes:
     """Fetch a URL through Apify's rotating proxy to bypass IP blocks (e.g. Reddit)."""
-    proxy_url = f"http://auto:{apify_key}@proxy.apify.com:8000"
+    proxy_url = f"http://auto:{proxy_password}@proxy.apify.com:8000"
     resp = requests.get(
         url,
         headers={"User-Agent": USER_AGENT},
@@ -231,10 +231,10 @@ def _fetch_url_via_apify_proxy(url: str, apify_key: str) -> bytes:
 def _fetch_feed(source: dict) -> list[dict]:
     """Fetch and normalize a single RSS feed."""
     url = source["url"]
-    apify_key = os.environ.get("APIFY_API_KEY")
+    proxy_password = os.environ.get("APIFY_PROXY_PASSWORD")
 
-    if apify_key and "reddit.com" in url:
-        content = _fetch_url_via_apify_proxy(url, apify_key)
+    if proxy_password and "reddit.com" in url:
+        content = _fetch_url_via_apify_proxy(url, proxy_password)
         feed = feedparser.parse(content)
     else:
         feed = feedparser.parse(url, request_headers={"User-Agent": USER_AGENT})
