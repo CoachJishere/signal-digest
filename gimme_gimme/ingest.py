@@ -217,7 +217,7 @@ def _fetch_apify_source(source: dict) -> list[dict]:
 
 def _fetch_url_via_apify_proxy(url: str, proxy_password: str) -> bytes:
     """Fetch a URL through Apify's rotating proxy to bypass IP blocks (e.g. Reddit)."""
-    proxy_url = f"http://auto:{proxy_password}@proxy.apify.com:8000"
+    proxy_url = f"http://groups-RESIDENTIAL:{proxy_password}@proxy.apify.com:8000"
     resp = requests.get(
         url,
         headers={"User-Agent": USER_AGENT},
