@@ -37,11 +37,13 @@ jobs:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
         run: |
-          CONFIG="${{ github.event.inputs.config }}"
-          if [ -z "$CONFIG" ]; then
-            python -m gimme_gimme.main --run-all
-          else
+                    CONFIG="${{ github.event.inputs.config }}"
+          if [ -n "$CONFIG" ]; then
             python -m gimme_gimme.main --run "configs/$CONFIG"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python -m gimme_gimme.main --run configs/config-mysterymaker.json
+          else
+            python -m gimme_gimme.main --run-all
           fi
 
       - name: Commit seen_topics updates
