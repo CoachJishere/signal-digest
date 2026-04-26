@@ -37,7 +37,7 @@ jobs:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
         run: |
-                    CONFIG="${{ github.event.inputs.config }}"
+          CONFIG="${{ github.event.inputs.config }}"
           if [ -n "$CONFIG" ]; then
             python -m gimme_gimme.main --run "configs/$CONFIG"
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
