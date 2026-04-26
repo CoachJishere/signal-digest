@@ -231,9 +231,16 @@ def _fetch_feed(source: dict) -> list[dict]:
     url = source["url"]
     scrapingbee_key = os.environ.get("SCRAPINGBEE_API_KEY")
 
-    if scrapingbee_key and "reddit.com" in url:
+    if "reddit.com" in url:
+        if not scrapingbee_key:
+            raise RuntimeError("SCRAPINGBEE_API_KEY not set — required for Reddit feeds")
+        logger.info(f"Fetching {url} via ScrapingBee")
         content = _fetch_url_via_scrapingbee(url, scrapingbee_key)
+        logger.info(f"ScrapingBee returned {len(content)} bytes for {url}")
         feed = feedparser.parse(content)
+        if feed.bozo and not feed.entries:
+            preview = content[:200].decode("utf-8", errors="replace")
+            raise RuntimeError(f"ScrapingBee response not valid feed: {preview}")
     else:
         feed = feedparser.parse(url, request_headers={"User-Agent": USER_AGENT})
 
