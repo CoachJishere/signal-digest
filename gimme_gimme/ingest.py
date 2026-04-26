@@ -215,14 +215,12 @@ def _fetch_apify_source(source: dict) -> list[dict]:
     return items
 
 
-def _fetch_url_via_apify_proxy(url: str, proxy_password: str) -> bytes:
-    """Fetch a URL through Apify's rotating proxy to bypass IP blocks (e.g. Reddit)."""
-    proxy_url = f"http://groups-RESIDENTIAL:{proxy_password}@proxy.apify.com:8000"
+def _fetch_url_via_scrapingbee(url: str, api_key: str) -> bytes:
+    """Fetch a URL through ScrapingBee to bypass IP blocks (e.g. Reddit)."""
     resp = requests.get(
-        url,
-        headers={"User-Agent": USER_AGENT},
-        proxies={"http": proxy_url, "https": proxy_url},
-        timeout=30,
+        "https://app.scrapingbee.com/api/v1/",
+        params={"api_key": api_key, "url": url, "render_js": "false"},
+        timeout=60,
     )
     resp.raise_for_status()
     return resp.content
@@ -231,10 +229,10 @@ def _fetch_url_via_apify_proxy(url: str, proxy_password: str) -> bytes:
 def _fetch_feed(source: dict) -> list[dict]:
     """Fetch and normalize a single RSS feed."""
     url = source["url"]
-    proxy_password = os.environ.get("APIFY_PROXY_PASSWORD")
+    scrapingbee_key = os.environ.get("SCRAPINGBEE_API_KEY")
 
-    if proxy_password and "reddit.com" in url:
-        content = _fetch_url_via_apify_proxy(url, proxy_password)
+    if scrapingbee_key and "reddit.com" in url:
+        content = _fetch_url_via_scrapingbee(url, scrapingbee_key)
         feed = feedparser.parse(content)
     else:
         feed = feedparser.parse(url, request_headers={"User-Agent": USER_AGENT})
