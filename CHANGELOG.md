@@ -18,6 +18,7 @@ All notable changes to Gimme Gimme are documented here.
 - PMM config: updated system prompt to target lean PMM teams rather than privacy-specific company
 
 ### Fixed
+- ScrapingBee Reddit fetches now retry transient 5xx and network errors (3 attempts, exponential backoff) instead of dropping a source on a single failure; fails fast on 4xx. The 2026-06-26 run lost 9 of 24 sources — including the most relevant ones (r/partygames, r/mystery, r/boardgames) — to one-off ScrapingBee 500s
 - Summarization crash (404 `not_found_error`): `claude-sonnet-4-20250514` model ID is retired and no longer served. Updated to the current `claude-sonnet-4-6` (documented drop-in replacement; same Messages API surface, no other code changes needed)
 - Duplicate email deliveries: GitHub Actions cron ran every 30 min but schedule window was 60 min, causing double matches. Changed workflow cron to hourly (`0 * * * *`)
 

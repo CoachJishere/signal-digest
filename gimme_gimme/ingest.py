@@ -215,15 +215,42 @@ def _fetch_apify_source(source: dict) -> list[dict]:
     return items
 
 
-def _fetch_url_via_scrapingbee(url: str, api_key: str) -> bytes:
-    """Fetch a URL through ScrapingBee to bypass IP blocks (e.g. Reddit)."""
-    resp = requests.get(
-        "https://app.scrapingbee.com/api/v1/",
-        params={"api_key": api_key, "url": url, "render_js": "false"},
-        timeout=60,
-    )
-    resp.raise_for_status()
-    return resp.content
+def _fetch_url_via_scrapingbee(url: str, api_key: str, max_attempts: int = 3) -> bytes:
+    """Fetch a URL through ScrapingBee to bypass IP blocks (e.g. Reddit).
+
+    ScrapingBee returns transient 500s when the upstream target (Reddit)
+    intermittently blocks or rate-limits the proxy IP. These recover on retry,
+    and failed requests are not billed — so retry 5xx and network errors with
+    backoff, but fail fast on 4xx (e.g. a bad API key won't recover).
+    """
+    last_error = None
+    for attempt in range(max_attempts):
+        try:
+            resp = requests.get(
+                "https://app.scrapingbee.com/api/v1/",
+                params={"api_key": api_key, "url": url, "render_js": "false"},
+                timeout=60,
+            )
+        except requests.exceptions.RequestException as e:
+            last_error = e  # network/timeout — retryable
+        else:
+            if resp.status_code < 400:
+                return resp.content
+            if resp.status_code < 500:
+                resp.raise_for_status()  # client error — don't retry
+            last_error = requests.exceptions.HTTPError(
+                f"{resp.status_code} Server Error for {url}", response=resp
+            )
+
+        if attempt < max_attempts - 1:
+            delay = 2 ** attempt + random.uniform(0, 1)
+            logger.warning(
+                f"ScrapingBee attempt {attempt + 1}/{max_attempts} failed for {url} "
+                f"({last_error}); retrying in {delay:.1f}s"
+            )
+            time.sleep(delay)
+
+    raise last_error
 
 
 def _fetch_feed(source: dict) -> list[dict]:
