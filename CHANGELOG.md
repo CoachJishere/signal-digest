@@ -16,6 +16,7 @@ All notable changes to Gimme Gimme are documented here.
 - PMM config: updated system prompt to target lean PMM teams rather than privacy-specific company
 
 ### Fixed
+- Summarization crash (404 `not_found_error`): `claude-sonnet-4-20250514` model ID is retired and no longer served. Updated to the current `claude-sonnet-4-6` (documented drop-in replacement; same Messages API surface, no other code changes needed)
 - Duplicate email deliveries: GitHub Actions cron ran every 30 min but schedule window was 60 min, causing double matches. Changed workflow cron to hourly (`0 * * * *`)
 
 ### Changed (prior)
