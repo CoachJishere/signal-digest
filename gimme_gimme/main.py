@@ -61,6 +61,17 @@ def main():
         _validate(args.validate, args.manifest)
 
 
+# Sentinel a config's system prompt can emit to signal "nothing worth sending".
+# When the summarizer returns this (or an empty body), delivery is suppressed.
+NO_OPPORTUNITIES_SENTINEL = "NO_OPPORTUNITIES"
+
+
+def _is_empty_digest(body: str) -> bool:
+    """True when the summarizer produced nothing worth emailing."""
+    stripped = body.strip()
+    return not stripped or stripped.upper().startswith(NO_OPPORTUNITIES_SENTINEL)
+
+
 def _run_digest(config_path: str, test_email: bool = False) -> None:
     """Execute the full digest pipeline for a single config."""
     config = None
@@ -77,6 +88,9 @@ def _run_digest(config_path: str, test_email: bool = False) -> None:
 
         # Score
         items = score_items(items, config["id"])
+        if not items:
+            logger.info(f"No items to summarize — skipping send for {config_name}")
+            return
         logger.info(f"Scored {len(items)} items. Top score: {items[0]['score']:.0f}/8")
 
         # Fetch full content for qualifying items
@@ -89,6 +103,11 @@ def _run_digest(config_path: str, test_email: bool = False) -> None:
         # Summarize
         body = summarize(items, config)
         logger.info("Summarization complete")
+
+        # Suppress delivery when the summarizer found nothing worth sending
+        if _is_empty_digest(body):
+            logger.info(f"No opportunities worth flagging — email suppressed for {config_name}")
+            return
 
         # Deliver
         send_digest(body, config, test_mode=test_email)

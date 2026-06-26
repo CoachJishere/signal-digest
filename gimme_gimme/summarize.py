@@ -12,6 +12,15 @@ logger = logging.getLogger(__name__)
 MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 4096
 
+# Default formatting instructions for newsletter-style digests. Configs that need
+# a different output shape (e.g. the Reddit monitor) override this via the
+# "output_instructions" field so the system prompt fully owns the format.
+DEFAULT_OUTPUT_INSTRUCTIONS = (
+    "Summarize these items for the newsletter digest.\n"
+    "Format each item as: **[TITLE] (X min read)** — 2-4 sentence TLDR paragraph — [Read more →]\n"
+    "Include the URL for each item's 'Read more' link."
+)
+
 
 def summarize(items: list[dict], config: dict) -> str:
     """Send top items to Claude for summarization. Returns formatted newsletter text."""
@@ -41,9 +50,7 @@ def _build_user_message(items: list[dict], config: dict) -> str:
     """Build the user message containing all items for summarization."""
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
 
-    parts = [
-        "Here are today's top stories to summarize for the newsletter digest:\n"
-    ]
+    parts = ["Here are today's items:\n"]
 
     for i, item in enumerate(items, 1):
         content = item.get("full_content") or item.get("summary") or "No content available"
@@ -67,11 +74,9 @@ def _build_user_message(items: list[dict], config: dict) -> str:
 
     parts.append("---")
     parts.append("")
-    parts.append(
-        f"Format each item as: **[TITLE] (X min read)** — 2-4 sentence TLDR paragraph — [Read more →]\n"
-        f"Include the URL for each item's 'Read more' link.\n"
-        f"Today's date: {today}"
-    )
+    instructions = config.get("output_instructions", DEFAULT_OUTPUT_INSTRUCTIONS)
+    parts.append(instructions)
+    parts.append(f"\nToday's date: {today}")
 
     return "\n".join(parts)
 

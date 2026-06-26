@@ -9,6 +9,8 @@ All notable changes to Gimme Gimme are documented here.
 - Keyword filter support in ingestion pipeline — configs can specify `keyword_filter` array to pre-filter items before scoring
 - `config-progressive.json` profile for queer and progressive culture signal
 - `config-zeitgeist.json` profile for tracking cultural movement momentum (rising/falling/shifting)
+- `output_instructions` config field — configs can now define their own summarizer output format instead of inheriting the hard-coded newsletter format. Newsletter configs omit it and keep the default. See [ADR 0001](docs/adr/0001-config-driven-output-formatting.md)
+- Empty-signal suppression — when the summarizer returns the `NO_OPPORTUNITIES` sentinel (or an empty body), no email is sent. Configs opt in by having their system prompt emit the sentinel; newsletter configs are unaffected
 
 ### Changed
 - All configs moved to M/W/F schedule (`0 7 * * 1,3,5`)
